@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- CSS only -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="accets/styles/container.css">
+    <link rel="stylesheet" href="accets/styles/header.css">
+    <link rel="stylesheet" href="accets/styles/footer.css">
+    <link rel="stylesheet" href="accets/styles/media.css">
+    <link rel="stylesheet" href="accets/styles/rows.css">
+    <link rel="stylesheet" href="accets/styles/login.css">
+
+</head>
+<body  onclick="onBa()" >
+    <style>
+        .intCatalog{
+            color: blue;
+        }
+        .dsfsfsdf {
+            /* height: 292px; */
+            
+            width: 331px;
+            top: -1px;
+            position: absolute;
+            left: -3px;
+
+        } 
+        .lgldfbfdmgdfmg {
+            position: absolute;
+            width: 619px;
+            height: 236px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 100px;
+            line-height: 236px;
+            left: 703px;
+            color: #F8F8F8;
+            top: 3252px;
+        }
+        .carousel-control-next-icon{
+            position: absolute;
+            right: 0px;
+            opacity: initial;
+            top: 215px;
+            width: 43px;
+            height: 43px;
+            background-image: url(../image/Vectors/Ellipse 1.png);
+        }
+        .carousel-control-prev-icon {
+            position: absolute;
+            right: 128px;
+            opacity: initial;
+            top: 215px;
+            width: 43px;
+            height: 43px;
+            background-image: url(../image/Vectors/Ellipse 2.png);
+        }
+        .container .container__body .container__serviceCatalog .container__sliderBanner {
+            position: absolute;
+            width: 994px;
+            height: 476px;
+            left: 342px;
+            top: -2px;
+            background: #4F72C6;
+            border-radius: 5px;
+        }
+        .phone4{
+            left: 345px;
+        }
+        .phone2{
+            left: 345px;
+        }
+        .dsfsdfsdfsdffds{
+            top: -3px;
+            left: -18px;
+            position: absolute;
+        }
+        /* .phone1 img{
+            width: 10px;
+        }
+        .phone2 img{
+            width: 10px;
+        }
+        .phone3 img{
+            width: 10px;
+        }
+        .phone4 img{
+            width: 10px;
+        } */
+        .phone1 {
+            position: absolute;
+            width: 305px;
+            height: 486px;
+            left: 0;
+            top: 0;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 50px rgb(0 0 0 / 10%);
+            border-radius: 5px;
+        }
+
+        .djfjidsfosdj {
+        position: absolute;
+        width: 195px;
+        height: 26px;
+        left: 57px;
+        top: 13px;
+        z-index: 9999999;
+        background: #259B24;
+        border-radius: 5px;
+        border: none;
+        /* font-style: normal; */
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 125.4%;
+        text-align: center;
+        color: #FFFFFF;
+        }
+        .dkosfjsdfjisd {
+            z-index: 9999999;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 82.9%;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            width: 187px;
+            height: 50px;
+            top: 406px;
+            left: 27px;
+            border: none;
+            font-weight: 100;
+            background: #E51C23;
+            border-radius: 5px;
+        }
+    </style>
+    <button id="topss" class="top">Наверх</button>
+    <div id="popupLogin" class="popupLogin">
+        <div class="popupLoginBody">
+            <button class="registrationButton" ><a target="_blank" href="components/login.html">РЕГЕСТРАЦИЯ В ОДИН КЛИК</a></button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__banner">
+            <img class="header__bannerImg" src="accets/image/Component 1.png" alt="">
+            <button  class="header__bannerButton">За покупками</button>
+        </div>
+        <div class="header__row1">
+            <div class="header__telResponsiv">
+
+
+                <h1 class="header__responfivtitile">COMTRADING</h1>
+
+                <div class="header__pesonsivMenu">
+                    <div class="header__clickMenu">
+                        <hr>
+                        <hr>
+                        <hr>
+                    </div>
+                    <img src="accets/image/header/user (14) 1.png" alt="">
+                    <img src="accets/image/header/heart (8) 1.png" alt="">
+                    <img src="accets/image/header/Group 2.png" alt="">
+                </div>
+            </div>
+            <div class="header__controle">
+                <div class="header__position">
+                    <img src="accets/image/Vectors/marker (2) 1.png" alt="" class="header__googleCart">
+                    <select class="user_profile_color_2" name="user_profile_color_2" required="required">
+                        <option class="selcls" value="1">Днепр</option>
+                        <option class="selcls" value="2">Киев</option>
+                    </select>
+                </div>
+                <div class="header__time">
+                    <img class="header__timeImg" src="accets/image/Vectors/time-oclock 1.png" alt="">
+                    <select style="border-radius: 0" class="user_profile_color_1" name="user_profile_color_2" required="required">
+                        <option class="header__titile" value="">Время работы</option>
+                        <option class="header__titile" value="1">Пн. - Пт. з 09:00 до 19:00</option>
+                        <option class="header__titile" value="2">Сб. з 10:00 до 14:00</option>
+                        <option class="header__titile" value="2">Вс. - выходной</option>
+    
+                    </select>
+    
+                </div>
+            </div>
+            <ul class="header__nav">
+                <li class="header__navItem"><a id="navitemOne" href="#">Корпоративным клиентам</a></li>
+                <li class="header__navItem"><a id="navitemTo" href="#">Про нас</a></li>
+                <li id="a" class="header__navItem"><a id="navitemFif" href="#">Способы доставки</a></li>
+                <li id="b" class="header__navItem"><a id="navitemSex" href="#">Гарантия</a></li>
+                <li id="c" class="header__navItem"><a id="navitemSevn" href="#">Возврат и обмен</a></li>
+                <li id="d" class="header__navItem"><a id="navitemEyt" href="#">Распродажа</a></li>
+                <li id="f" class="header__navItem"><a id="navitemNayn" href="#">Контакты</a></li>           
+             </ul>
+        </div>
+        <div class="header__row2">
+            <div class="header__menu2">
+
+
+                <ul class="header__menu2Ul1" > 
+                    <li id="text2">
+                        <div>
+                            <ul>
+                                <li><a href="#">НОУТБУКИ, ПЛАНШЕТЫ</a></li>
+                                <li><a href="#">НАСТОЛЬНЫЕ ПК, МОНИТОРЫ</a></li>
+                                <li><a href="#">КОМПЛЕКТУЮЩИЕ ДЛЯ ПК</a></li>
+                                <li><a href="#">ИГРЫ, МУЛЬТИМЕДИА</a></li>
+                                <li><a href="#">КОМПЬЮТЕРНАЯ ПЕРИФЕРИЯ</a></li>
+                                <li><a href="#">ПРИНТЕРЫ, МФУ, ПЛОТТЕРЫ</a></li>
+                                <li><a href="#">СЕТИ, ИНТЕРНЕТ</a></li>
+                                <li><a href="#">ЭЛЕКТРОПИТАНИЕ</a></li>
+                                <li><a href="#">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
+                            </ul>
+                        </div>
+                    <a href="#">КОМПЬЮТЕРЫ, СЕТИ</a></li>
+                    <li id="text3">                        
+                        <div>
+                            <ul>
+                                <li><a href="#">КАНЦТОВАРЫ</a></li>
+                                <li><a href="#">ТОРГОВОЕ И КАССОВОЕ ОБОРУДОВАНИЕ</a></li>
+                                <li><a href="#">ОРГТЕХНИКА</a></li>
+                                <li><a href="#">СРЕДА СВЯЗИ</a></li>
+                                <li><a href="#">ПРЕЗЕНТАЦИОННОЕ  ОБОРУДОВАНИЕ</a></li>
+                                <li><a href="#">ОХРАННЫЕ СИСТЕМЫ</a></li>
+                            </ul>
+                        </div>
+                    <a href="#">ОФИСНОЕ ОБОРУДОВАНИЕ</a></li>
+                    <li id="text4">                        <div>
+                        <ul>
+                            <li><a href="#">КЛИМАТИЧЕСКАЯ ТЕХНИКА</a></li>
+                            <li><a href="#">БОЛЬШАЯ БЫТОВА ТЕХНИКА</a></li>
+                            <li><a href="#">ТЕХНИКА ДЛЯ ДОМА</a></li>
+                            <li><a href="#">ИНСТРУМЕНТЫ</a></li>
+                            <li><a href="#">ТЕХНИКА ДЛЯ КУХНИ</a></li>
+                            <li><a href="#">ТЕХНИКА ДЛЯ КРАСОТЫ И УХОДА</a></li>
+                            <li><a href="#">ДОМ И САД</a></li>
+                            <li><a href="#">ТОВАРЫ ДЛЯ АВТОМОБИЛЯ</a></li>
+                            <li><a href="#">ТОВАРЫ ДЛЯ ОСВЕЩЕНИЯ/a></li>
+                        </ul>
+                    </div><a href="#">БЫТОВАЯ ТЕХНИКА</a></li>
+                </ul>
+                <ul  class="header__menu2Ul2" >
+                    <li id="text5">                        <div>
+                            <ul>
+                                <li><a href="#">НАСТОЛЬНЫЙ ТЕННИС</a></li>
+                                <li><a href="#">ТУРИЗМ</a></li>
+                                <li><a href="#">ПИКНИК, КЕМПИНГ, ПЛЯЖ</a></li>
+                                <li><a href="#">СПРОТИВНОЕ ОРУЖИЕ</a></li>
+                                <li><a href="#">ВЕЛОСИПЕДЫ, РОЛИКИ, СКЕЙТЫ</a></li>
+                                <li><a href="#">НОЖИ И МУЛЬТИМЕДИА</a></li>
+                                <li><a href="#">РЫБАЛКА</a></li>
+                                <li><a href="#">ФИТНЕС</a></li>
+                                <li><a href="#">ТОВАРЫ ДЛЯ ФИТНЕСА</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div><a href="#">СПОТР, ОТДЫХ</a></li>
+                    <li id="text6">                        <div>
+                            <ul>
+                                
+                                <li><a href="#">СМАРТФОНЫ, УМНЫЕ ЧАСЫ</a></li>
+                                <li><a href="#">АКСЕССУАРЫ И ДОПОЛНИТЕЛЬНОЕ ОБОРУДОВАНИЕ</a></li>
+                            </ul>
+                        </div><a href="#">СМАРТФОНЫ ТЕЛЕФОНЫ</a</li>
+                    <li id="text7">                        <div>
+                            <ul>
+                                <li><a href="#">КУХОННЫЕ ПРИНАДЛЕЖНОСТИ</a></li>
+                                <li><a href="#">СТОЛОВАЯ ПОСУДА</a></li>
+                                <li><a href="#">КУХОННАЯ ПОСУДА</a></li>
+                                <li><a href="#">КУХОННЫЕ НОЖИ И ПРИНАДЛЕЖНОСТИ</a></li>
+                        </div><a href="#">ПОСУДА</a></li>
+                </ul>
+                <ul  class="header__menu2Ul3" >
+                    <li id="text7">                        <div>
+                            <ul>
+                                <li><a href="#">СПУТНИКОВОЕ ТЕЛЕВИДЕНИЕ</a></li>
+                                <li><a href="#">ТЕЛЕВИЗОРЫ, ПРОЕКТОРЫ</a></li>
+                                <li><a href="#">ВИДЕОКАМЕРЫ И ВИДЕООБОРУДОВАНИЕ</a></li>
+                                <li ><a href="#">ДОМАШНИЕ КИНОТЕАТРЫ</a></li>
+                                <li><a href="#">ПОРТАТИВНОЕ АУДИО</a></li>
+                            </ul>
+                        </div><a href="#">ТВ, АУДИО</a></li>
+                    <li id="text8">                        <div>
+                            <ul>
+                                <li><a href="#">ФОТОАППАРАТЫ, ОБЪЕКТИВЫ, ФОТОРАМКИ</a></li>
+                                <li><a href="#">АКСЕССУАРЫ ДЛЯ ФОТОАППАРАТОВ</a></li>
+                            </ul>
+                        </div><a href="#">ФОТО</a></li>
+                    <li id="text9">                        <div>
+                            <ul>
+                                <li><a href="#">БЫТОВАЯ ХИМИЯ</a></li>
+                                <li><a href="#">СРЕДСТВА ДЛЯ БРИТЬЯ</a></li>
+                                <li><a href="#">ЗАЩИТА ОТ ВИРУСОВ</a></li>
+                            </ul>
+                        </div><a href="#">БЫТОВАЯ И СРЕДСТВА ГИГИЕНЫ</a></li>
+                </ul>
+                <ul  class="header__menu2Ul4" >
+                    <li id="text10">                        <div>
+                            <ul>
+                                <li><a href="#">РАДИОУПРАВЛЯЕМЫЕ МОДЕЛИ</a></li>
+                                <li><a href="#">УМНЫЙ ДОМ</a></li>
+                                <li><a href="#">ЭКШН-КАМЕРЫ И АКСЕССУАРЫ</a></li>
+                                <li><a href="#">ЭЛЕКТРОТРАНСПОРТ</a></li>
+                                <li><a href="#">ФИТНЕС ГАДЖЕТЫ</a></li>
+                                <li><a href="#">ОПТИКА</a></li>
+                            </ul>
+                        </div><a href="#">ГАДЖЕТЫ И АКСЕССУАРЫ</a></li>
+                    <li id="text11">                        <div>
+                            <ul>
+                                <li><a href="#">КОЛЯСКИ, КРОВАТКИ И АВТОКРЕСЛА</a></li>
+                                <li><a href="#">ПРОГУЛКА И АКТИВНЫЙ ОТДЫХ</a></li>
+                                <li><a href="#">ДЕТСКИЕ ИГРУШКИ</a></li>
+                                <li><a href="#">ГИГИЕНА И СРЕДСТВА ПО УХОДУ</a></li>
+                            </ul>
+                        </div><a href="#">ДЕТСКИЕ ТОВАРЫ</a></li>
+                    <li id="text12">                        <div>
+                    
+                        </div><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="btc" class="svg-inline--fa fa-btc fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M310.204 242.638c27.73-14.18 45.377-39.39 41.28-81.3-5.358-57.351-52.458-76.573-114.85-81.929V0h-48.528v77.203c-12.605 0-25.525.315-38.444.63V0h-48.528v79.409c-17.842.539-38.622.276-97.37 0v51.678c38.314-.678 58.417-3.14 63.023 21.427v217.429c-2.925 19.492-18.524 16.685-53.255 16.071L3.765 443.68c88.481 0 97.37.315 97.37.315V512h48.528v-67.06c13.234.315 26.154.315 38.444.315V512h48.528v-68.005c81.299-4.412 135.647-24.894 142.895-101.467 5.671-61.446-23.32-88.862-69.326-99.89zM150.608 134.553c27.415 0 113.126-8.507 113.126 48.528 0 54.515-85.71 48.212-113.126 48.212v-96.74zm0 251.776V279.821c32.772 0 133.127-9.138 133.127 53.255-.001 60.186-100.355 53.253-133.127 53.253z"></path></svg>ДЛЯ МАЙНИНГА</a></li>
+                </ul>
+
+
+            </div>
+                <div class="typewriter">
+                    <h1>
+                        COMTRADING
+                    </h1>
+                    <div class="serchAndPhones">
+                        <img src="accets/image/Vectors/Vector.png" alt="" class="header__tel">
+                        <select class="header__telnumbers" name="user_profile_color_2">
+                            <option  class="header__telnumber" value=""><img src="accets/image/Vector.png" style="z-index: 10000; position: absolute;" alt="">+38 (044) 501 73 73</option>
+                        </select>
+                        <div class="header__categorig">
+                            <div class="header__serch">
+                                <img src="accets/image/Vectors/search (6) 1 (1).png" alt="" class="header__serchImg">
+                            </div>
+                            <button class="heaader__allCtg">
+                                <span>Все категории</span>
+                                <img src="accets/image/Vectors/angle-small-down (2) 2.png" alt="">
+                                
+                            </button>
+                            <div class="header__hr"></div>
+                            <input autofocus placeholder="Например, мобильный телефон" type="text" class="header__inputCtg">
+                        </div>
+                    </div>
+                    <div class="header__vectors">
+                        <a target="_blank" href="components/login.html"><img class="header__imgPerson" src="accets/image/Vectors/user (14) 1.png" alt=""></a>
+                        <img class="header__imgHeart" src="accets/image/Vectors/heart (8) 1.png" alt="">
+                        <div class="header__items">
+                            <img src="accets/image/Vectors/shopping-cart (7) 1.png" alt="" class="header__personitems">
+                            <div class="header__itemsText">
+                                <span class="header__cop" >Корзина</span>
+                                <span class="header__itam" >(1)товар</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+               
+        </div>
+    </header>
+    <div class="container">
+        <div class="container__body">
+            <div class="container__serviceCatalog">
+                <div class="container__catalog">
+                    <div class="container__tSeEt">
+                        <button onclick="colse()" class="colseBTN">❌</button>
+                        <div class="shadow"></div>
+                        <div class="container__controle">
+                            <button class="container__ctalogItemH">Каталог товаров <img class="container__image" src="accets/image/catalog/apps (1) 1.png" alt=""></button>
+                            <hr class="container__hr" >
+                            <div class="cont">
+                                <button style="border: blue;" id="c1" class="container__ctalogItem">Комп'ютери, Мережі <img class="container__catalogImg" src="accets/image/catalog/computer 1.png" alt="">
+                                    <div id="block" class="container__blockMenu">
+
+                                        <ul id="Cls1">
+                                            <li><a class="intCatalog" href="#">НОУТБУКИ, ПЛАНШЕТЫ</a></li>
+                                            <li><a href="">ЗАЩИТНЫЕ ПЛЕНКИ И СТЕКЛА</a></li>
+                                            <li><a href="#"> НАРУЖНЫЕ HDD</a></li>
+                                            <li><a href="#">ЭЛЕКТРОННЫЕ КНИГИ</a></li>
+                                            <li><a href="#">ЧЕХЛЫ К ПЛАНШЕТАМ</a></li>
+                                            <li><a href="#">ДОК-СТАНЦИИ</a</li>
+                                            <li><a href="#">АВТОМОБИЛЬНЫЕ ДЕРЖАТЕЛИ</a></li>
+                                            <li><a href="#">НОУТБУКИ, УЛЬТРАБУКИ</a></li>
+                                            <li><a href="#">БЛОКИ ПИТАНИЯ</a></li>
+                                            <!-- <--
+                                            <li>ЧЕХЛЫ, ОБЛОЖКИ ДЛЯ ЭЛЕКТРОННЫХ КНИГ
+                                            </li>
+                                            <li>БЛОКИ ПИТАНИЯ
+                                            </li>
+                                            <li>АВТОАДАПТЕР
+                                            </li>
+                                            <li>ПЛАНШЕТЫ
+                                            </li>
+                                            <li>СУМКИ, ЧЕХЛЫ, РЮКЗАКИ ДЛЯ НОУТБУКОВ
+                                            </li>
+                                            <li>ПОДСТАВКИ
+                                            </li>
+                                            <li>АККУМУЛЯТОРЫ
+                                            </li>
+                                            <li>АКСЕССУАРЫ ДЛЯ НОУТБУКОВ
+                                            </li> --> 
+                                        </ul>
+                                        <ul id="Cls2">
+                                            <li><a  class="intCatalog"  href="#">НАСТОЛЬНЫЕ ПК, МОНИТОРЫ</a></li>
+                                            <li><a href="#">КАЛИБРАТОРЫ</a>
+                                            </li>
+                                            <li><a href="#">СЕРВЕРЫ</a>
+                                            </li>
+                                            <li><a href="#">НАСТОЛЬНЫЕ КОМПЬЮТЕРЫ</a>
+                                            </li>
+                                            <li><a href="#">АКСЕССУАРЫ ДЛЯ МОНИТОРОВ</a>
+                                            </li>
+                                            <li><a href="#">МОНИТОРЫ</a>
+                                            </li>
+                                            <li><a href="#">ЧИСТЯЩИЕ СРЕДСТВА <br> ДЛЯ ТЕХНИКИ</a>
+                                            </li>
+                                        </ul>
+
+
+                                        <ul id="Cls3">                                        
+                                            <li><a  class="intCatalog"  href="#">КОМПЛЕКТУЮЩИЕ ДЛЯ ПК</a></li>
+                                            <li><a href="#">РЕОБАСА (КОНТРОЛЛЕРЫ <br>ВЕНТИЛЯТОРОВ)</a>
+                                            </li>
+                                            <li><a href="#">ВИДЕОКАРТЫ</a>
+                                            </li>
+                                            <li><a href="#">ДИСКИ SSD</a>
+                                            </li>
+                                            <li><a href="#">БЛОКИ ПИТАНИЯ</a>
+                                            </li>
+                                            <li><a href="#">КАРМАНЫ ДЛЯ HDD</a>
+                                            </li>
+                                            <li><a href="#">ДИСКИ, ДИСКЕТЫ</a>
+                                            </li>
+                                            <li><a href="#">СИСТЕМНЫЕ ПЛАТЫ </a>
+                                            </li>
+                                            <!-- <li>ПЛАТФОРМЫ СЕРВЕРНЫЕ
+                                            </li>
+                                            <li>КАБЕЛИ, УДЛИНИТЕЛИ ДЛЯ СЕРВЕРОВ
+                                            </li>
+                                            <li>ПРОЦЕССОРЫ
+                                            </li>
+                                            <li>ПАМЯТЬ ДЛЯ ПК И НОУТБУКОВ
+                                            </li>
+                                            <li>КУЛЕРЫ И СИСТЕМЫ ОХЛАЖДЕНИЯ
+                                            </li>
+                                            <li>ДИСКОВОДЫ DVD, CD, BLU-RAY
+                                            </li>
+                                            <li>КОНТРОЛЛЕРЫ, ПЛАТЫ
+                                            </li>
+                                            <li>СЕРВЕРНЫЕ ПРОЦЕССОРЫ
+                                            </li>
+                                            <li>СИСТЕМЫ ОХЛАЖДЕНИЯ СЕРВЕРОВ
+                                            </li>
+                                            <li>МАТЕРИНСКИЕ ПЛАТЫ
+                                            </li>
+                                            <li>ЖЕСТКИЕ ДИСКИ
+                                            </li>
+                                            <li>КОРПУСА
+                                            </li>
+                                            <li>ЗВУКОВЫЕ КАРТЫ
+                                            </li>
+                                            <li>ТЕРМОПАСТА
+                                            </li>
+                                            <li>ЖЕСТКИЕ ДИСКИ СЕРВЕРНЫЕ
+                                            </li>
+                                            <li>КОРПУСА И БП ДЛЯ СЕРВЕРОВ
+                                            </li>
+                                            <li>РАСШИРЕНИЕ ГАРАНТИИ
+                                            </li> -->
+                                        </ul>
+
+
+                                        <ul id="Cls4">                                        
+                                            <li><a  class="intCatalog"  href="#">ИГРЫ, МУЛЬТИМЕДИА</a></li>
+                                            <li><a href="#">ИГРЫ ДЛЯ ПРИСТАВОК И ПК</a>
+                                            </li>
+                                            <li><a href="#">ГЕЙМПАДЫ, ДЖОЙСТИКИ, <br> РУЛЯ</a>
+                                            </li>
+                                            <li><a href="#">ИГРОВЫЕ ПРИСТАВКИ</a>
+                                            </li>
+                                            <li><a href="#">СТОЛЫ ДЛЯ ГЕЙМЕРОВ</a>
+                                            </li>
+                                            <li><a href="#">НАКЛЕЙКИ ДЛЯ МЫШЕЙ</a>
+                                            </li>
+                                            <li><a href="#">НАУШНИКИ, ГАРНИТУРЫ <br> И МИКРОФОНЫ</a>
+                                            </li>
+                                            <!-- <li>ВЕБ-КАМЕРЫ
+                                            </li>
+                                            <li>МЕДИАПЛЕЕРЫ
+                                            </li>
+                                            <li>КРЕСЛА ДЛЯ ГЕЙМЕРОВ
+                                            </li>
+                                            <li>АКСЕССУАРЫ ДЛЯ ГЕЙМЕРОВ
+                                            </li>
+                                            <li>МУЛЬТИМЕДИЙНЫЕ КОЛОНКИ
+                                            </li>
+                                            <li>TV-ТЮНЕРЫ
+                                            </li>
+                                            <li>АКСЕССУАРЫ ДЛЯ ПРИСТАВОК
+                                            </li>
+                                            <li>ОЧКИ ДЛЯ ГЕЙМЕРОВ
+                                            </li>
+                                            <li>ОДЕЖДА ДЛЯ ГЕЙМЕРОВ
+                                            </li> -->
+
+                                        </ul>
+
+
+                                        <ul id="Cls5">                                        
+                                            <li><a  class="intCatalog"  href="#">КОМПЬЮТЕРНАЯ ПЕРИФЕРИЯ</a></li>
+                                            <li><a href="#">3D СКАНЕРЫ</a>
+                                            </li>
+                                            <li><a href="#">КОМПЛЕКТЫ (МЫШКА+КЛАВИАТУРА)</a>
+                                            </li>
+                                            <li><a href="#">КАРТРИДЕРЫ</a> 
+                                            </li>
+                                            <li><a href="#">ПРЕЗЕНТЕРЫ</a> 
+                                            </li>
+                                            <li><a href="#">КОВРИКИ ДЛЯ МЫШИ</a> 
+                                            </li>
+                                            <li><a href="#">КЛАВИАТУРЫ</a> 
+                                            </li>
+                                            <li><a href="#"> ФЛЕШ-НАКОПИТЕЛИ USB (ФЛЕШКИ USB)</a>
+                                            </li>
+                                            <li><a href="#"> ГРАФИЧЕСКИЕ ПЛАНШЕТЫ</a>
+                                            </li>
+                                            <li><a href="#"> КАБЕЛИ USB, FIREWIRE, ESATA (SATA)</a>
+                                            </li>
+                                            <li><a href="#">МЫШКИ</a> 
+                                            </li>
+                                            <li><a href="#">USB КОНЦЕНТРАТОРЫ</a> 
+                                            </li>
+                                            <li><a href="#"></a> СКАНЕРЫ
+                                            </li>
+                                        </ul>
+
+
+                                        <ul id="Cls6">                                        
+                                            <li><a  class="intCatalog"  href="#">ПРИНТЕРЫ, МФУ, ПЛОТТЕРЫ</a></li>
+                                            <li>  <a href="">КАРТРИДЖИ ДЛЯ ПРИНТЕРОВ 3D</a> 
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">СНПЧ</a>
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">КАРТРИДЖИ ЛАЗЕРНЫЕ</a> 
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">КАРТРИДЖИ ДЛЯ КОПИРОВ</a> 
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">ЗАПАСНЫЕ ЧАСТИ ДЛЯ ОРГТЕХНИКИ</a> 
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">РУЧКИ 3D</a> 
+                                            </li> <a href=""></a> 
+                                            <li>  <a href="">3D-ПРИНТЕРЫ</a>
+                                            </li> <a href=""></a> 
+                                            <li>  <a href=""> ПРИНТ-СЕРВЕРЫ</a> 
+                                            </li>
+                                            <!-- <li>БУМАГА И ПЛЕНКА ДЛЯ ОФИСА
+                                            </li>
+                                            <li>КАРТРИДЖИ МАТРИЧНЫЕ
+                                            </li>
+                                            <li>ПРИНТЕРЫ, МФУ
+                                            </li>
+                                            <li>РАСХОДНЫЕ МОИТРИАЛЫ К 3D-ПРИНТЕРАМ
+                                            </li>
+                                            <li>КАРТРИДЖИ СТРУЙНЫЕ
+                                            </li>
+                                            <li>КАРТРИДЖИ ДЛЯ СПЕЦИАЛИЗИРОВАННЫХ ПРИНТЕРОВ
+                                            </li>
+                                            <li>КАРТРИДЖИ ДЛЯ ФАКСОВ
+                                            </li> -->
+                                        </ul>
+
+
+                                        <ul id="Cls7">                                        
+                                            <li><a  class="intCatalog"  href="#">СЕТИ, ИНТЕРНЕТ</a></li>
+                                            <li> <a href="#">POWERLINE-ОБОРУДОВАНИЕ</a>
+                                            </li><a href="#"></a>
+                                            <li> <a href="#">VOIP-ШЛЮЗЫ</a>
+                                            </li><a href="#"></a>
+                                            <li> <a href="#"> KVM-ПЕРЕКЛЮЧАТЕЛИ</a>
+                                            </li><a href="#"></a>
+                                            <li> <a href="#">МОНТАЖНЫЕ ШКАФЫ И <br> СТОЙКИ</a>
+                                            </li><a href="#"></a>
+                                            <li> <a href="#">КОНВЕРТЕРЫ, <br> МЕДИАКОНВЕРТЕРЫ</a> 
+                                            </li><a href="#"></a>
+                                            <li> <a href="#">АКСЕССУАРЫ ДЛЯ <br> КОММУТАТОРОВ</a>
+                                                                   
+                                        </ul>
+
+
+                                        <ul id="Cls8">                                        
+                                            <li><a  class="intCatalog"  href="#">ЭЛЕКТРОПИТАНИЕ</a></li>
+                                            <li><a href="#">ИСТОЧНИКИ  БЕСПЕРЕБОЙНОГО <br> ПИТАНИЯ (ИБП)</a>
+                                            </li>
+                                            <li><a href="#">НАРУЖНЫЕ АККУМУЛЯТОРЫ <br> (POWER BANK)</a>
+                                            </li>
+                                            <li><a href="#">ИНВЕРТОРЫ</a>
+                                            </li>
+                                            <li><a href="#">ОПЦИИ</a>
+                                            </li>
+                                            <li><a href="#">АККУМУЛЯТОРЫ ДЛЯ ИБП</a>
+                                            </li>
+                                            <li><a href="#">ЗАРЯДНЫЕ УСТРОЙСТВА</a>
+                                            </li>
+                                            <li><a href="#">СЕТЕВЫЕ ФИЛЬТРЫ, УДЛИНИТЕЛИ</a>
+                                            </li>
+                                            <li><a href="#">СТАБИЛИЗАТОРЫ НАПРЯЖЕНИЯ</a>
+                                            </li>
+                                            <li><a href="#">ЗАРЯДНОЕ УСТРОЙСТВО ДЛЯ АККУМУЛЯТОРОВ AAA, AA</a>
+                                            </li>
+                                            <li><a href="#">АККУМУЛЯТОРЫ И БАТАРЕЙКИ</a>
+                                            </li>
+                                        </ul>
+
+
+                                        <ul id="Cls9">                                        
+                                            <li><a  class="intCatalog"  href="#">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
+                                            <li><a href="#">АНТИВИРУСЫ</a></li>
+                                            <li><a href="#">ДРУГОЕ ПО</a>
+                                            </li>
+                                            <li><a href="#">ОФИСНЫЕ ПАКЕТЫ</a>
+                                            </li>
+                                            <li><a href="#">ОПЕРАЦИОННЫЕ СИСТЕМЫ</a>
+                                            </li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </button>
+                                <hr class="container__hr" >
+                                <button style="border: blue;" id="c2"class="container__ctalogItem">Побутова техніка <img src="accets/image/catalog/Group 88.png"class="container__catalogImg" alt="">
+                                    <div id="block" class="container__blockMenu">
+                                        <ul id="Cls11">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">КЛИМАТИЧЕСКАЯ ТЕХНИКА</a></li>
+                                            <li><a   href="">КОНДИЦИОНЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ОБОГРЕВАТЕЛИ</a>
+                                            </li>
+                                            <li><a   href="">БОЙЛЕРЫ И ВОДОНАГРЕВАТЕЛИ</a>
+                                            </li>
+                                            <li><a   href="">УВЛАЖНИТЕЛИ, <br> ВОЗДУХООЧИСТИТЕЛИ</a>
+                                            </li>
+                                            <li><a   href="">ВЕНТИЛЯТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ <br> ДЛЯ КЛИМАТИЧЕСКОЙ ТЕХНИКИ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls12">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">БОЛЬШАЯ БЫТОВАЯ ТЕХНИКА</a></li>
+                                            <li><a   href="">ХОЛОДИЛЬНИКИ</a>
+                                            </li>
+                                            <li><a   href="">ВАРОЧНЫЕ ПОВЕРХНОСТИ</a>
+                                            </li>
+                                            <li><a   href="">ВЫТЯЖКИ</a>
+                                            </li>
+                                            <li><a   href="">МОРОЗИЛЬНЫЕ КАМЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ПЕЧЬ</a>
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ И РАСХОДНЫЕ <br> МАТЕРИАЛЫ</a   href="">
+                                            </li>
+                                            <li><a   href="">СТИРАЛЬНЫЕ И СУШИЛЬНЫЕ МАШИНЫ</a>
+                                            </li>
+
+                                        </ul>
+                                        <ul id="Cls13">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ТЕХНИКА ДЛЯ ДОМА</a></li>
+                                            <li><a   href="">ПЫЛЕСОСЫ</a>
+                                            </li>
+                                            <li><a   href="">МИНИМОЙКИ</a   href="">
+                                            </li>
+                                            <li><a   href="">УТЮГИ</a>
+                                            </li>
+                                            <li><a    href="">МЕЛКАЯ ТЕХНИКА</a  >
+                                            </li>
+                                            <li><a   href="">ПАРООЧИСТИТЕЛИ,  <br> ПАРОВЫЕ ШВАБРЫ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls14">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ИНСТРУМЕНТЫ</a></li>
+                                            <li><a   href="">ФРЕЗЕР</a>
+                                            </li>
+                                            <li><a   href="">МУЛЬТИТУЛЫ</a>
+                                            </li>
+                                            <li><a   href="">КРАСКОПУЛЬТЫ</a>
+                                            </li>
+                                            <li><a   href="">КУСАЧКИ</a>
+                                            </li>
+                                            <li><a   href="">МНОГОФУНКЦИОНАЛЬНЫЕ ИНСТРУМЕНТЫ</a>
+                                            </li>
+                                            <li><a   href="">КЛЕЕВЫЕ ПИСТОЛЕТЫ</a>
+                                            </li>
+                                            <li><a   href="">ЭЛЕКТРОРУБАНКИ</a>
+                                            </li>
+                                            <li><a   href="">ЭЛЕКТРОЛОБЗИКИ</a>
+                                            </li>
+                                            <li><a   href="">ПЕРФОРАТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">ПИЛЫ И ПЛИТКОРЕЗЫ</a>
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ И РАСХОДНЫЕ МАТЕРИАЛЫ</a>
+                                            </li>
+                                            <li><a   href="">ИЗМЕРИТЕЛЬНЫЕ ПРИБОРЫ</a>
+                                            </li>
+                                            <li><a   href="">НОЖИ СТРОИТЕЛЬНЫЕ</a>
+                                            </li>
+                                            <li><a   href="">СТАНКИ</a></li>
+                                            <li><a   href="">СТЕПЛЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ЭЛЕКТРОНОЖНИЦЫ</a></li>
+                                            <li><a   href="">ПЛОСКОГУБЦЫ</a>
+                                            </li>
+                                            <li><a   href="">ШЛИФОВАЛЬНЫЕ И ПОЛИРОВАЛЬНЫЕ МАШИНЫ (БОЛГАРКИ)</a>
+                                            </li>
+                                            <li><a    href="">ДРЕЛИ И МИКСЕРЫ</a >
+                                            </li>
+                                            <li><a   href="">ПАЯЛЬНИКИ</a></li>
+                                            <li><a   href="">РАБОЧИЕ СТОЛЫ</a>
+                                            </li>
+                                            <li><a   href="">ФЕНЫ</a ></li>
+                                            <li><a   href="">ШУРУПОВЕРТЫ И ЭЛЕКТРОУЛОВКИ</a>
+                                            </li>
+                                            <li><a   href="">ОТБОЙНЫЕ МОЛОТКИ</a >
+                                            </li>
+                                            <li><a   href="">ЯЩИКИ ДЛЯ ИНСТРУМЕНТОВ</a>
+                                            </li>
+                                            <li><a   href="">КЛЮЧИ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls15">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ТЕХНИКА ДЛЯ КУХНИ</a></li>
+                                            <li><a   href="">КУЛЕРЫ ДЛЯ ВОДЫ</a>
+                                            </li>
+                                            <li><a   href="">БЛЕНДЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">КОФЕВАРКИ</a></li>
+                                            <li><a   href="">КУХОННЫЕ НОЖИ</a>
+                                            </li>
+                                            <li><a   href="">МИКСЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ПАРОВАРКИ</a>
+                                            </li>
+                                            <li><a   href="">ТОСТЕРЫ</a>,
+                                            </li>
+                                            <li><a   href="">ЧАЙНИКИ</a>
+                                            </li>
+                                            <li><a   href="">БАРБЕКЮ, ГРИЛИ</a>
+                                            </li>
+                                            <li><a   href="">ВЕСЫ КУХОННЫЕ</a>
+                                            </li>
+                                            <li><a   href="">КОФЕМОЛКИ</a></li>
+                                            <li><a   href="">СКИБОРИЗКИ</a>
+                                            </li>
+                                            <li><a   href="">МУЛЬТИВАРКИ</a>
+                                            </li>
+                                            <li><a   href="">СОКОВЫЖИМАЛКИ</a>
+                                            </li>
+                                            <li><a   href="">ФРИТЮРНИЦЫ</a></li>
+                                            <li><a   href="">ЭЛЕКТРОПЕЧИ</a>
+                                            </li>
+                                            <li><a   href="">МИКРОВОЛНОВКИ</a ></li>
+                                            <li><a   href="">ЙОГУРТНИЦЫ, ИЗГОТОВЛЕНИЕ МОРОЖЕНОГО</a>
+                                            </li>
+                                            <li><a   href="">КУХОННЫЕ КОМБАЙНЫ</a>
+                                            </li>
+                                            <li><a   href="">ИЗМЕЛЬЧИТЕЛИ</a></li>
+                                            <li><a   href="">МЯСОРУБКИ</a>
+                                            </li>
+                                            <li><a   href="">СУШИЛКИ ДЛЯ ФРУКТОВ</a >
+                                            </li>
+                                            <li><a   href="">ХЛЕБОПЕЧКИ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls16">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ТЕХНИКА ДЛЯ КРАСОТЫ И УХОДА</a></li>
+                                            <li><a   href="">РАДИО- И ВИДЕОНЯНИ</a>
+                                            </li>
+                                            <li><a   href="">ТЕРМОМЕТРЫ</a>
+                                            </li>
+                                            <li><a   href="">ЭЛЕКТРОБРИТВЫ</a>
+                                            </li>
+                                            <li><a   href="">МАШИНКИ ДЛЯ СТРИЖКИ <br> (ТРИММЕРЫ)</a>
+                                            </li>
+                                            <li><a   href="">МАССАЖЕРЫ</a></li>
+                                            <li><a   href="">ТОНОМЕТРЫ</a></li>
+                                            <li><a   href="">РАСЧЕСКИ ДЛЯ ВОЛОС</a>
+                                            </li>
+                                            <li><a   href="">ГЛЮКОМЕТРЫ</a></li>
+                                            <li><a   href="">ФЕНЫ, СТАЙЛЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ЗУБНЫЕ ЭЛЕКТРОЩЕТКИ</a>
+                                            </li>
+                                            <li><a   href="">ЭЛЕКТРОГРЕЛКИ</a>
+                                            </li>
+                                            <li><a   href="">ИНГАЛЯТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">ЭПИЛЯТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">ПЛОЙКИ И ВЫПРЯМИТЕЛИ</a>
+                                            </li>
+                                            <li><a   href="">ВЕСЫ НАПОЛЬНЫЕ</a>
+                                            </li>
+                                            <li><a   href="">ПРИБОРЫ ДЛЯ МАНИКЮРА И ПЕДИКЮРА</a>
+                                            </li>
+                                
+                                        </ul>
+                                        <ul id="Cls17">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ДОМ И САД</a></li>
+                                            <li><a   href="">ТВЕРДОТОПЛИВНЫЕ КОТЛЫ</a>
+                                            </li>
+                                            <li><a   href="">МОТОБУРЫ</a>
+                                            </li>
+                                            <li><a   href="">ЦЕПНЫЕ ПИЛЫ</a>
+                                            </li>
+                                            <li><a   href="">АККУМУЛЯТОРЫ И <br> ЗАРЯДНЫЕ УСТРОЙСТВА</a>
+                                            </li>
+                                            <li><a   href="">САДОВЫЕ ПЫЛЕСОСЫ</a>
+                                            </li>
+                                            <li><a   href="">МОЙКИ КУХОННЫЕ</a>
+                                            </li>
+                                            <li><a>ГАЗОНОКОСИЛКИ И АЭРАТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">НАБОРЫ РУЧНОГО ИНСТРУМЕНТА</a>
+                                            </li>
+                                            <li><a   href="">СЕКАТОРЫ И ПИЛЫ</a>
+                                            </li>
+                                            <li><a   href="">КОМПРЕССОРЫ</a></li>
+                                            <li><a   href="">ГЕНЕРАТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">ТРИММЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">МЕБЕЛЬ</a>
+                                            </li>
+                                            <li><a   href="">ИЗМЕЛЬЧИТЕЛИ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls18">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ТОВАРЫ ДЛЯ АВТОМОБИЛЯ</a></li>
+                                            <li><a   href="">АВТО АКСЕССУАРЫ</a>
+                                            </li>
+                                            <li><a   href="">ВИДЕОРЕГИСТРАТОРЫ</a >
+                                            </li>
+                                            <li><a   href="">АВТО-DVD/TV</a>
+                                            </li>
+                                            <li><a   href="">РЕСИВЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">НАВИГАТОРЫ GPS</a>
+                                            </li>
+                                            <li><a   href="">АВТОУСИЛИТЕЛИ</a>
+                                            </li>
+                                            <li><a   href="">АКУСТИКА</a>
+                                            </li>
+                                            <li><a   href="">АККУМУЛЯТОРЫ АВТОМОБИЛЬНЫЕ</a>
+                                            </li>
+                                            <li><a   href="">РАДАР-ДЕТЕКТОРЫ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls19">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">ТОВАРЫ ДЛЯ ОСВЕЩЕНИЯ</a></li>
+                                            <li><a   href="">ЭЛЕКТРИЧЕСКИЕ ЛАМПОЧКИ</a>
+                                            </li>
+                                            <li><a   href="">НА СОЛНЕЧНЫХ БАТАРЕЯХ</a>
+                                            </li>
+                                            <li><a   href="">СВЕТОДИОДНЫЕ ЛАМПЫ</a>
+                                            </li>
+                                            <li><a   href="">СВЕТИЛЬНИКИ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </button>
+
+                                <hr class="container__hr" >
+                                <button style="border: blue;" id="c4"class="container__ctalogItem">Смартфони, Телефони <img class="container__catalogImg" src="accets/image/catalog/hand-phone 1.png" alt="">
+                                    <div id="block" class="container__blockMenu">
+                                        <ul id="Cls26">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">СМАРТФОНЫ, УМНЫЕ ЧАСЫ</a></li>
+                                            <li><a   href="">СМАРТФОНЫ И МОБИЛЬНЫЕ ТЕЛЕФОНЫ</a>
+                                            </li>
+                                            <li><a   href="">УМНЫЕ ЧАСЫ (SMARTWATCH)</a>
+                                            </li>
+                                            <li><a   href="">РЕМЕШКИ</a>
+                                            </li>
+                                        </ul>
+
+
+                                        <ul id="Cls29">
+                                            
+                                            
+                                            
+                                            <li><a  class="intCatalog"  href="#">АКСЕССУАРЫ И ДОПОЛНИТЕЛЬНОЕ  ОБОРУДОВАНИЕ</a></li>
+                                            <li><a   href="">3D-ОЧКИ И ГЕЙМПАДЫ ДЛЯ СМАРТФОНОВ</a>
+                                            </li>
+                                            <li><a   href="">СТЕЛСИ</a>
+                                            </li>
+                                            <li><a   href="">ВНУТРЕННИЕ АККУМУЛЯТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">КАРТЫ ПАМЯТИ</a>
+                                            </li>
+                                            <li><a   href="">ЧЕХЛЫ, НАКЛАДКИ</a>
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ</a>
+                                            </li>
+                                            <li><a   href="">МОНОПОДЫ ДЛЯ СЕЛФИ (SELFIE STICK)</a>
+                                            </li>
+                                            <li><a   href="">ЗАЩИТНЫЕ ПЛЕНКИ И СТЕКЛА</a>
+                                            </li>
+                                        </ul>
+
+
+
+                                    </div>
+                                </button>
+                                <hr class="container__hr" >
+                                <button style="border: blue;" id="c5"class="container__ctalogItem">ТВ, Аудіо, Відео <img class="container__catalogImg" src="accets/image/catalog/XMLID_1988_.png" alt="">
+                                    <div id="block" class="container__blockMenu">
+                                        <ul id="Cls30">
+                                        
+                                            <li><a  class="intCatalog"  href="#">СПУТНИКОВОЕ ТЕЛЕВИДЕНИЕ</a></li>
+                                            <li><a   href="">ДОПОЛНИТЕЛЬНОЕ ОБОРУДОВАНИЕ ДЛЯ ЦИФРОВОГО ТЕЛЕВИДЕНИЯ</a>
+                                            </li>
+                                            <li><a   href="">АНТЕННЫ СПУТНИКОВОГО ТЕЛЕВИДЕНИЯ</a>
+                                            </li>
+                                            <li><a   href="">КОНВЕРТОРЫ СПУТНИКОВОГО ТЕЛЕВИДЕНИЯ</a>
+                                            </li>
+
+                                        </ul>
+                                        <ul id="Cls33">
+
+                                            <li><a  class="intCatalog"  href="#">ТЕЛЕВИЗОРЫ, ПРОЕКТОРЫ</a></li>
+                                            <li><a   href="">ТЕЛЕВИЗОРЫ</a>
+                                            </li>
+                                            <li><a   href="">3D-ОЧКИ</a>
+                                            </li>
+                                            <li><a   href="">КРЕПЕЖ ДЛЯ ПРОЕКТОРОВ</a>
+                                            </li>
+                                            <li><a   href="">СМЕННАЯ ОПТИКА ДЛЯ ПРОЕКТОРОВ</a>
+                                            </li>
+                                            <li><a   href="">ДОКУМЕНТ-КАМЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ПРОЕКТОРЫ</a>
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ ДЛЯ ТЕЛЕВИЗОРОВ</a>
+                                            </li>
+                                            <li><a   href="">КРЕПЕЖ К ТЕЛЕВИЗОРАМ</a>
+                                            </li>
+                                            <li><a   href="">СТОЙКИ ДЛЯ АУДИО-, ВИДЕОАППАРАТУРЫ</a>
+                                            </li>
+                                            <li><a   href="">ИНФОРМАЦИОННЫЕ ДИСПЛЕИ</a>
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ ДЛЯ ПРОЕКТОРОВ</a>
+                                            </li>
+                                            <li><a   href="">ЛАМПЫ ДЛЯ ПРОЕКТОРОВ</a>
+                                            </li>
+                                            <li><a   href="">ЭКРАНЫ ДЛЯ ПРОЕКТОРОВ</a>
+                                            </li>
+
+                                        </ul>
+                                        <ul id="Cls34">
+
+                                            <li><a  class="intCatalog"  href="#">ВИДОКАМЕРЫ И ВИДЕООБОРУДОВАНИЕ</a></li>
+                                            <li><a   href="">АККУМУЛЯТОРЫ ДЛЯ ВИДЕОКАМЕР</a>
+                                            </li>
+                                            <li><a   href="">СИСТЕМЫ СТАБИЛИЗАЦИИ ДЛЯ ФОТО И ВИДЕОКАМЕР.</a   href="">
+                                            </li>
+                                            <li><a   href="">АКСЕССУАРЫ ДЛЯ КВАДРОКОПТЕРА</a>
+                                            </li>
+                                            <li><a   href="">КАССЕТЫ ДЛЯ ВИДЕОКАМЕР</a>
+                                            </li>
+                                            <li><a   href="">КВАДРОКОПТЕР ДЛЯ ВИДЕОСЪЕМКИ</a>
+                                            </li>
+                                            <li><a   href="">МОНОПОДЫ ДЛЯ СЕЛФИ (SELFIE STICK)</a>
+                                            </li>
+                                            <li><a   href="">ОСВЕТИТЕЛИ, НАКАМЕРНЫЙ СВЕТ</a>
+                                            </li>
+                                            <li><a   href="">ПРОФЕССИОНАЛЬНОЕ ВИДЕООБОРУДОВАНИЕ</a >
+                                            </li>
+                                            <li><p   href="">ВИДЕОКАМЕРЫ</p></li>
+
+                                        </ul>
+                                        <ul id="Cls35">
+
+                                            <li><a  class="intCatalog"  href="#">ДОМАШНИЕ КИНОТЕАТРЫ</a></li>
+                                            <li><a   href="">ДОМАШНИЕ КИНОТЕАТРЫ</a >
+                                            </li>
+                                            <li><a   href="">СТОЙКИ ДЛЯ АУДИО-, ВИДЕОАППАРАТУРЫ</a >
+                                            </li>
+                                            <li><a   href="">BLU-RAY И DVD-ПЛЕЕРЫ</a >
+                                            </li>
+
+                                        </ul>
+                                        <ul id="Cls36">
+                                            <li><a  class="intCatalog"  href="#">ПОРТАТИВНОЕ АУДИО</a></li>
+                                            <li><a   href="">MP3 И МЕДИАПЛЕЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">MP3-FM ТРАНСМИТТЕРЫ</a>
+                                            </li>
+                                            <li><a   href="">ДИКТОФОНЫ</a>
+                                            </li>
+                                            <li><a   href="">МУЗЫКАЛЬНЫЕ ЦЕНТРЫ, МИНИ- И МИКРОАУДИОСИСТЕМЫ</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </button>
+                                <hr class="container__hr" >
+                                <button style="border: blue;" id="c6"class="container__ctalogItem">Фото <img class="container__catalogImg" src="accets/image/catalog/Group 89.png" alt=""> 
+                                    <div id="block" class="container__blockMenu">
+                                        <ul id="Cls37">
+                                            <li><a class="intCatalog"  href="#">ФОТОАППАРАТЫ, ОБЪЕКТИВЫ, ФОТОРАМКИ</a></li>
+                                            <li><a   href="">ФОТОАППАРАТЫ</a>
+                                            </li>
+                                            <li><a   href="">ОБЪЕКТИВЫ</a>
+                                            </li>
+                                        </ul>
+                                        <ul id="Cls38">
+                                            <li><a class="intCatalog"  href="#">АКСЕССУАРЫ ДЛЯ ФОТОАППАРАТОВ</a></li>
+                                            <li>БЛЕНДЫ, КРЫШКИ ДЛЯ ОБЪЕКТИВОВ
+                                            </li>
+                                            <li><a   href="">ФОТОВСПЫШКИ</a></li>
+                                            <li><a   href="">ТЕЛЕКОНВЕРТЕРЫ, АДАПТЕРЫ, ПЕРЕХОДНЫЕ КОЛЬЦА</a>
+                                            </li>
+                                            <li><a   href="">СВЕТОФИЛЬТРЫ</a>
+                                            </li>
+                                            <li><a   href="">ШТАТИВЫ</a>
+                                            </li>
+                                            <li><a   href="">ПУЛЬТЫ ДУ ДЛЯ ФОТО- ВИДЕОКАМЕР.</a>
+                                            </li>
+                                            <li><a   href="">СУМКИ, ФУТЛЯРЫ, КОФРЫ ДЛЯ ФОТО И ВИДЕО</a>
+                                            </li>
+                                        </ul>
+                                        <!-- <ul id="Cls39">
+                                            <li><a class="intCatalog"  href="#">ФОТОАППАРАТЫ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls40">
+                                            <li><a class="intCatalog"  href="#">ОБЪЕКТИВЫ</a></li>
+
+                                        </ul> -->
+
+                                    </div>
+                                </button>
+                                <hr id="Cls" class="container__hr" >
+                                <button id="c7"class="container__catalogItemBack" >Показать еще <img class="container__redVector" src="accets/image/catalog/redVector.png" alt="">
+                                    <div id="block" class="container__blockMenu">
+                                        <ul id="Cls41">
+                                            <li><a  class="intCatalog"  href="#">НОУТБУКИ, ПЛАНШЕТЫ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls42">
+                                            <li><a  class="intCatalog"  href="#">НАСТОЛЬНЫЕ ПК, МОНИТОРЫ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls43">
+                                            <li><a  class="intCatalog"  href="#">КОМПЛЕКТУЮЩИЕ ДЛЯ ПК</a></li>
+
+                                        </ul>
+                                        <ul  id="Cls44">
+                                            <li><a  class="intCatalog"  href="#">ИГРЫ, МУЛЬТИМЕДИА</a></li>
+
+                                        </ul>
+                                        <ul  id="Cls45">
+                                            <li><a  class="intCatalog"  href="#">КОМПЬЮТЕРНАЯ ПЕРаИФЕРИЯ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls46">
+                                            <li><a  class="intCatalog"  href="#">ПРИНТЕРЫ, МФУ, ПЛОТТЕРЫ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls47">
+                                            <li><a  class="intCatalog"  href="#">СЕТИ, ИНТЕРНЕТ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls48">
+                                            <li><a  class="intCatalog"  href="#">ЭЛЕКТРОПИТАНИЕ</a></li>
+
+                                        </ul>
+                                        <ul id="Cls49">
+                                            <li><a  class="intCatalog"  href="#">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</a></li>
+
+                                        </ul>
+                                    </div>
+                                </button>
+                                <div  class="dopCategoric">
+                                    <hr class="container__hr" >
+                                    <button id="c8"class="container__ctalogItem">ГАДЖЕТЫ И АКСЕССУАРЫ<img class="container__catalogImg" src="" alt=""> 
+                                        <div id="block" class="container__blockMenu">
+                                            <ul id="Cls50">
+                                                <li><a   class="intCatalog" href="#">РАДИОУПРАВЛЯЕМЫЕ МОДЕЛИ</a></li>
+                                                <li><a href="">КАТЕРА</a>
+                                                </li>
+                                                <li><a href="">КВАДРОКОПТЕР</a>
+                                                </li>
+                                                <li><a href="">ВЕРТОЛЕТЫ</a>
+                                                </li>
+                                                <li><a  href="">ЗАПЧАСТИ</a>
+                                                </li>
+                                                <li><a  href="">АВТОМОБИЛИ</a>
+                                                </li>
+                                                <li><a  href="">АКСЕССУАРЫ</a>
+                                                </li>
+                                                <li><a  href="">ТАНКИ</a>
+                                                </li>
+                                                <li><a  href="">САМОЛЕТЫ</a>
+                                                </li>
+                                                <li><a  href="">РАБОТЫ</a>
+                                                </li>                                 
+                                            </ul>
+                                            <ul id="Cls51">
+                                                <li><a   class="intCatalog" href="#">УМНЫЙ ДОМ</a></li>
+                                                <li><a  href="">ДАТЧИКИ</a>
+                                                </li>
+                                                <li><a  href="">ДОМОФОНЫ</a>
+                                                </li>
+                                                <li><a  href="">ДИММЕРЫ И ВЫКЛЮЧАТЕЛИ</a>
+                                                </li>
+
+                                            </ul>
+                                            <ul id="Cls52">
+                                                <li><a   class="intCatalog" href="#">ЭКШН-КАМЕРЫ И АКСЕССУАРЫ</a></li>
+                                                <li><a  href="">ЭКШН-КАМЕРЫ</a>
+                                                </li>
+                                                <li><a  href="">АКСЕССУАРЫ ДЛЯ ЭКШН-КАМЕР.</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls53">
+                                                <li><a   class="intCatalog" href="#">ЭЛЕКТРОТРАНСПОРТ</a></li>
+
+                                                <li><a  href="">ГИРОБОРДЫ</a>
+                                                </li>
+                                                <li><a  href="">АКСЕССУАРЫ К ЭЛЕКТРОТРАНСПОРТУ</a>
+                                                </li>
+                                                <li><a  href="">ЭЛЕКТРОВЕЛОСИПЕДЫ</a>
+                                                </li>
+                                                <li><a  href="">ЭЛЕКТРОСАМОКАТЫ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls54">
+                                                <li><a   class="intCatalog" href="#">ФИТНЕС ГАДЖЕТЫ</a></li>
+                                                <li><a  href="">СПОРТИВНЫЕ БРАСЛЕТЫ</a>
+                                                </li>
+
+                                            </ul>
+                                            <ul id="Cls55">
+                                                <li><a   class="intCatalog" href="#">ОПТИКА</a></li>
+                                                <li><a  href="">БИНОКЛИ</a>
+                                                </li>
+                                                <li><a  href="">СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</a>
+                                                </li>
+                                                <li><a  href="">ПРИЦЕЛЫ</a>
+                                                </li>
+                                                <li><a  href="">ДАЛЬНОМЕРЫ</a>
+                                                </li>
+                                                <li><a  href="">ПОДЗОРНЫЕ ТРУБЫ</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </button>
+                                    <hr class="container__hr" >
+                                    <button id="c9"class="container__ctalogItem">ДЕТСКИЕ ТОВАРЫ<img class="container__catalogImg" src="" alt=""> 
+                                        <div id="block" class="container__blockMenu">
+                                            <ul id="Cls56">
+                                                <li><a  class="intCatalog" href="#">КОЛЯСКИ, КРОВАТКИ И АВТОКРЕСЛА</a></li>
+                                                <li><a  href="">АВТОКРЕСЛА</a>
+                                                </li>
+                                                <li><a  href="">ВКЛАДЫШИ</a>
+                                                </li>
+                                                <li><a  href="">КОНВЕРТЫ В КОЛЯСКЕ</a>
+                                                </li>
+                                                <li><a  href="">ЛЮЛЬКИ ДЛЯ КОЛЯСОК</a>
+                                                </li>
+                                                <li><a  href="">ЗОНТЫ</a></li>
+                                                <li><a  href="">КРОВАТКИ</a>
+                                                </li>
+                                                <li><a  href="">КОМОДЫ</a>
+                                                </li>
+                                                <li><a  href="">ДЕТСКИЕ КОЛЯСКИ</a>
+                                                </li>
+                                                <li><a  href="">АКСЕССУАРЫ ДЛЯ ТЕЛЕЖЕК И АВТОКРЕСЕЛ</a>
+                                                </li>
+                                                <li><a  href="">БАЗЫ</a>
+                                                </li>
+                                                <li><a  href="">ПРОГУЛОЧНЫЕ БЛОКИ</a>
+                                                </li>
+                                                <li><a  href="">ЧЕХЛЫ</a>
+                                                </li>
+                                                <li><a  href="">МАТРАСЫ</a></li>
+                                                <li><a  href="">СТОЛЫ</a>
+                                                </li>
+                                                <li><a  href="">МОСКИТНЫЕ СЕТКИ</a>
+                                                </li>
+                                                <li><a  href="">ДОЖДЕВИКИ</a>
+                                                </li>
+                                                <li><a  href="">СУМКИ</a>
+                                                </li>
+                                                <li><a  href="">ШАССИ</a>
+                                                </li>
+                                                <li><a  href="">МОБИЛЫ И ДУГИ</a>
+                                                </li>
+                                                <li><a  href="">ПОСТЕЛЬНЫЕ КОМПЛЕКТЫ</a>
+                                                </li>
+                                                <li><a  href="">НАМАТРАСНИКИ</a></li>
+                                            </ul>
+                                            <ul id="Cls57">
+                                                <li><a  class="intCatalog" href="#">ПРОГУЛКА И АКТИВНЫЙ ОТДЫХ</a></li>
+                                                <li><a  href="">ДЕТСКИЕ КАЧЕЛИ, КАТАЛКИ</a>
+                                                </li>
+                                                <li><a  href="">СКЕЙТБОРД</a>
+                                                </li>
+                                                <li><a  href="">ИГРОВЫЕ ПЛОЩАДКИ</a>
+                                                </li>
+                                                <li><a  href="">ГОРКИ</a>
+                                                </li>
+                                                <li><a  href="">ИГРОВЫЕ ДОМИКИ, ПАЛАТКИ</a>
+                                                </li>
+                                                <li><a  href="">САНКИ</a>
+                                                </li>
+                                                <li><a  href="">ШЕЗЛОНГИ, КОВРИКИ КРЕСЛА-КАЧАЛКИ</a>
+                                                </li>
+                                                <li><a  href="">МЯЧИ</a>
+                                                </li>
+                                                <li><a  href="" >РЮКЗАКИ ДЛЯ ДЕТЕЙ И ПОДРОСТКОВ</a>
+                                                </li>
+                                                <li><a  href="">ЛЫЖИ ДЛЯ САМЫХ МАЛЕНЬКИХ</a>
+                                                </li>
+                                                <li><a  href="">ДЕТСКИЕ ЭЛЕКТРО- И ВЕЛОМОБИЛИ</a>
+                                                </li>
+                                                <li><a  href="">БАТУТЫ</a>
+                                                </li>
+                                                <li><a  href="">САМОКАТЫ</a>
+                                                </li>
+                                                <li><a  href="">ЛЫЖИ ДЛЯ ДЕТЕЙ И ПОДРОСТКОВ</a>
+                                                </li>
+                                                <li><a  href="">СКУТЕРЫ</a>
+                                                </li>
+                                                <li><a  href="">СТРИБУНЫ, ХОДУНКИ</a>
+                                                </li>
+                                                <li><a  href="">ИГРОВЫЕ НАБОРЫ</a>
+                                                </li>
+                                                <li><a  href="">РОЛИКОВЫЕ КОНЬКИ</a>
+                                                </li>
+                                                <li><a  href="">ПЛЯЖНЫЕ НАДУВНЫЕ ИГРУШКИ, БАССЕЙНЫ, ПРЫГУНЫ</a>
+                                                </li>
+                                                <li><a   href="">ДЕТСКИЕ КАЧЕЛИ</a>
+                                                </li>
+                                                <li><a  href="">ПЕСОЧНИЦЫ</a>
+
+                                                </li>
+                                                <li><a  href="">ДЕТСКИЕ ВЕЛОСИПЕДЫ</a>
+
+                                                </li>
+                                                <li><a  href="">ЧУДОМОБИЛИ</a>
+                                                </li>
+                                                <li><a  href="">ДЕТСКИЕ МАНЕЖИ</a>
+                                                </li>
+                                                <li><a href="" >СКЕЙТБОРД</a></li>
+                                            </ul>
+                                            <ul id="Cls58">
+                                                <li><a  class="intCatalog" href="#">ДЕТСКИЕ ИГРУШКИ</a></li>
+                                                <li><a  href="" >ИНТЕРАКТИВНЫЕ ИГРУШКИ</a>
+                                                </li>
+                                                <li><a  href="" >РАДИОУПРАВЛЯЕМЫЕ МОДЕЛИ, ИГРУШКИ</a>
+                                                </li>
+                                                <li><a  href="" >ДЕТСКИЕ МУЗЫКАЛЬНЫЕ ИНСТРУМЕНТЫ</a>
+                                                </li>
+                                                <li><a  href="" >СБОРНЫЕ МОДЕЛИ</a>
+                                                </li>
+                                                <li><a  href="" >НАБОРЫ ДЛЯ ДЕТСКОГО ТВОРЧЕСТВА</a>
+                                                </li>
+                                                <li><a  href="" >ЖЕЛЕЗНЫЕ ДОРОГИ</a>
+                                                </li>
+                                                <li><a  href="" >АВТОМОДЕЛИ</a>
+                                                </li>
+                                                <li><a  href="" >МОЗАИКИ</a>
+                                                </li>
+                                                <li><a  href="" >МУЗЫКАЛЬНЫЕ ИГРУШКИ</a>
+                                                </li>
+                                                <li><a  href="" >КУБИКИ</a>
+                                                </li>
+                                                <li><a  href="" >ЯЩИКИ ДЛЯ ИГРУШЕК</a>
+                                                </li>
+                                                <li><a  href="" >СЮЖЕТНО-РОЛЕВЫЕ НАБОРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ДЕТСКИЕ КОНСТРУКТОРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ИССЛЕДОВАНИЯ, ОПЫТЫ</a>
+                                                </li>
+                                                <li><a  href="" >МАШИНКИ, ТЕХНИКА</a>
+                                                </li>
+                                                <li><a  href="" >КУКЛЫ, НАБОРЫ ДЛЯ КУКОЛ</a>
+                                                </li>
+                                                <li><a href="" >НАСТОЛЬНЫЕ ИГРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ДЕТСКИЕ СПОРТИВНЫЕ ИГРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ИГРОВЫЕ НАБОРЫ</a>
+                                                </li>
+                                                <li><a  href="" >РАЗВИВАЮЩИЕ ИГРУШКИ</a>
+                                                </li>
+                                                <li><a  href="" >МЫЛЬНЫЕ ПУЗЫРИ</a>
+                                                </li>
+                                                <li><a  href="" >МЕБЕЛЬ ДЛЯ КУКОЛ И ДОМИКИ</a>
+                                                </li>
+                                                <li><a  href="" >МЯГКИЕ ИГРУШКИ</a>
+                                                </li>
+                                                <li><a  href="" >ПЕРСОНАЖИ МУЛЬТФИЛЬМОВ, ИГРОВЫЕ ФИГУРКИ</a>
+                                                </li>
+                                                <li><a  href="" >ПАЗЛЫ</a>
+                                                </li>
+                                                <li><a  href="" >ТРАНСФОРМЕРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ГАРАЖИ, ПАРКИНГИ, ТРЕКИ</a>
+                                                </li>
+                                                <li><a  href="" >ДЕТСКИЕ КОМПЬЮТЕРЫ, ЭЛЕКТРОННЫЕ ИГРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ИГРУШЕЧНОЕ ОРУЖИЕ</a>
+                                                </li>
+                                                <li><a  href="" >ТЕЛЕСКОПЫ, МИКРОСКОПЫ</a>
+                                                </li>
+                                                <li><a  href="" >ИГРУШКИ ДЛЯ МАЛЫШЕЙ</a>
+                                                </li>
+                                                <li><a  href="" >МОДЕЛИ ДЛЯ СБОРКИ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls59">
+                                                <li><a  class="intCatalog" href="#">ГИГИЕНА И СРЕДСТВА ПО УХОДУ</a></li>
+                                                <li><a   href="" >МОЛОКООТСОСЫ</a >
+                                                </li>
+                                                <li><a  href="" >СОСКИ, ПУСТЫШКИ ПРОРЕЗЫВАТЕЛИ</a>
+                                                </li>
+                                                <li><a   href="" >ТЕРМОМЕТРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ГОРШКИ</a>
+                                                </li>
+                                                <li><a  href="" >ТОВАРЫ ДЛЯ КОРМЛЕНИЯ</a>
+                                                </li>
+                                                <li><a  href="" >СТУЛЬЯ ДЛЯ КОРМЛЕНИЯ</a>
+                                                </li>
+                                                <li><a  href="" >ПОДГУЗНИКИ И ПЕЛЕНКИ</a>
+                                                </li>
+                                                <li><a  href="" >ПОДСТАВКИ, КОВРИКИ И СИДЕНЬЯ В ВАННУЮ</a>
+                                                </li>
+                                                <li><a  href="" >КОСМЕТИКА ДЛЯ МАЛЫША И МАМЫ</a>
+                                                </li>
+                                                <li><a  href="" >ТОВАРЫ ДЛЯ МАМ</a>
+                                                </li>
+                                                <li><a  href="" >БУТЫЛОЧКИ ДЛЯ КОРМЛЕНИЯ И АКСЕССУАРЫ</a href="" >
+                                                </li>
+                                                <li><a  href="" >ПОСУДА</a>
+                                                </li>
+                                                <li><a  href="" >СВЕТИЛЬНИКИ</a href="" >
+                                                </li>
+                                                <li><a  href="" >АКСЕССУАРЫ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </button>
+                                    <hr class="container__hr" >
+                                    <button id="c10"class="container__ctalogItem">ОФИСНОЕ ОБОРУДОВАНИЕ<img class="container__catalogImg" src="" alt=""> 
+                                        <div id="block" class="container__blockMenu">
+                                            <ul id="Cls60">
+                                                <li><a  class="intCatalog" href="#">КАНЦТОВАРЫ</a></li>
+                                                <li><a  href="" >СТИКЕРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ПАПКИ</a>
+                                                </li>
+                                                <li><a  href="" >МАРКЕРЫ</a>
+                                                </li>
+                                                <li><a  href="" >ОРГАНАЙЗЕРЫ, ДНЕВНИКИ, БЛОКНОТЫ</a>
+                                                </li>
+                                                <li><a  href="" >КАНЦТОВАРЫ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls61">
+                                                <li><a  class="intCatalog" href="#">ТОРГОВОЕ И КАССОВОЕ ОБОРУДОВАНИЕ</a></li>
+                                                <li><a  href="" >ТЕРМИНАЛЫ СБОРА ДАННЫХ</a>
+                                                </li>
+                                                <li><a  href="" >ВЕСЫ</a>
+                                                </li>
+                                                <li><a  href="" >СЧЕТЧИКИ БАНКНОТ</a>
+                                                </li>
+                                                <li><a   href="" >ПРИНТЕРЫ ЭТИКЕТОК</a >
+                                                </li>
+                                                <li><a   href="">АКСЕССУАРЫ ДЛЯ ТОРГОВОГО ОБОРУДОВАНИЯ</a>
+                                                </li>
+                                                <li><a   href="">КАССОВЫЕ АППАРАТЫ</a>
+                                                </li>
+                                                <li><a   href="">ФИСКАЛЬНЫЕ РЕГИСТРАТОРЫ</a>
+                                                </li>
+                                                <li><a   href="">ДЕТЕКТОРЫ ВАЛЮТ</a>
+                                                </li>
+                                                <li><a   href="">ЭТИКЕТ-ПИСТОЛЕТ</a>
+                                                </li>
+                                                <li><a  href="">СКАНЕРЫ ШТРИХКОДА</a>
+                                                </li>
+                                                <li><a   href="">ПРИНТЕРЫ</a>
+                                                </li>
+                                                <li><a   href="">ТОРГОВОЕ ОБОРУДОВАНИЕ (РАЗНОЕ)</a  href="">
+                                                </li>
+                                                <li><a   href="">POS-ТЕРМИНАЛЫ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls62">
+                                                <li><a  class="intCatalog" href="#">ОРГТЕХНИКА</a></li>
+                                                <li><a   href="">КАЛЬКУЛЯТОРЫ</a>
+                                                </li>
+                                                <li><a   href="">РЕЗАКИ</a></li>
+                                                <li><a   href="">ЛАМИНАТОРЫ</a>
+                                                </li>
+                                                <li><a   href="">УНИЧТОЖИТЕЛИ ДОКУМЕНТОВ</a>
+                                                </li>
+                                                <li><a    href="">БРОШЮРОВЩИКИ (БИНДЕРЫ)</a >
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls63">
+                                                <li><a  class="intCatalog" href="#">СРЕДА СВЯЗИ</a></li>
+                                                <li><a  href="">ФАКС-АППАРАТЫ</a>
+                                                </li>
+                                                <li><a   href="">МИНИ АТС</a>
+                                                </li>
+                                                <li><a   href="">ПОРТАТИВНЫЕ РАЦИИ</a>
+                                                </li>
+                                                <li><a   href="">ТЕЛЕФОНЫ ПРОВОДНЫЕ И DECT</a>
+                                                </li>
+                                                <li><a   href="">ВИДЕОТЕРМИНАЛЫ</a>
+                                                </li>
+                                                <li><a   href="">КАБЕЛЬ ТЕЛЕФОННЫЙ</a>
+                                                </li>
+                                                <li><a   href="">СИСТЕМНЫЕ ТЕЛЕФОНЫ</a>
+                                                </li>
+                                                <li><a   href="">СЕРВЕРЫ ВИДЕОКОНФЕРЕНЦСВЯЗИ</a>
+                                                </li>
+                                                <li><a   href="">ДОПОЛНИТЕЛЬНОЕ ОБОРУДОВАНИЕ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls64">
+                                                <li><a  class="intCatalog" href="#">ПРЕЗЕНТАЦИОННОЕ  ОБОРУДОВАНИЕ</a></li>
+                                                <li><a   href="">ДОСКИ ДЛЯ ПРЕЗЕНТАЦИЙ И ИНФОРМАЦИИ</a>
+                                                </li>
+                                                <li><a   href="">ИНТЕРАКТИВНЫЕ ДОСКИ И АКСЕССУАРЫ К НИМ</a>
+                                                </li>
+                                                <li><a   href="">ИНТЕРАКТИВНЫЕ СЕНСОРНЫЕ СИСТЕМЫ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls65">
+                                                <li><a  class="intCatalog" href="#">ОХРАННЫЕ СИСТЕМЫ</a></li>
+                                                <li><a   href="">КАМЕРЫ</a>
+                                                </li>
+                                                <li><a   href="">ВИДЕОРЕГИСТРАТОРЫ</a>
+                                                </li>
+                                                <li><a   href="">БЛОКИ ПИТАНИЯ</a>
+                                                </li>
+                                                <li><a   href="">ДОМОФОНЫ</a>
+                                                </li>
+                                                <li><a   href="">ИНФРАКРАСНЫЕ БАРЬЕРЫ</a>
+                                                </li>
+                                                <li><a   href="">КОМПЛЕКТЫ</a>
+                                                </li>
+                                                <li><a   href="">ДАТЧИКИ, ИЗВЕЩАТЕЛИ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </button>
+                                    <hr class="container__hr" >
+                                    <button id="c11"class="container__ctalogItem">СПОРТ, ОТДЫХ<img class="container__catalogImg" src="" alt=""> 
+                                        <div id="block" class="container__blockMenu">                    
+                                            <ul id="Cls67">
+                                                <li><a  class="intCatalog"  href="#">ТУРИЗМ</a></li>
+                                                <li><a   href="">ЧЕМОДАНЫ СУМКИ</a>
+                                                </li>
+                                                <li><a   href="">СПАЛЬНЫЕ МЕШКИ</a>
+                                                </li>
+                                                <li><a   href="">ТУРИСТИЧЕСКАЯ ПОСУДА</a>
+                                                </li>
+                                                <li><a   href="">ОБОРУДОВАНИЕ ПАЛАТОК</a>
+                                                </li>
+                                                <li><a   href="">ПАЛАТКИ И ТЕНТЫ</a>
+                                                </li>
+                                                <li><a   href="">СОЛНЕЧНЫЕ УСТРОЙСТВА</a>
+                                                </li>
+                                                <li><a   href="">ТУРИСТИЧЕСКИЕ КОВРИКИ</a>
+                                                </li>
+                                                <li><a   href="">АКСЕССУАРЫ ДЛЯ ФОНАРЕЙ</a>
+                                                </li>
+                                                <li><a   href="">РЮКЗАКИ</a>
+                                                </li>
+                                                <li><a   href="">ТЕРМОБЕЛЬЕ</a>
+                                                </li>
+                                                <li><a   href="">ФОНАРИ</a></li>
+                                            </ul>
+                                            <ul id="Cls68">
+                                                <li><a  class="intCatalog"  href="#">ПИКНИК, КЕМПИНГ, ПЛЯЖ</a></li>
+                                                <li><a   href="">ГАМАКИ</a>
+                                                </li>
+                                                <li><a   href="">СРЕДСТВА ДЛЯ ДЕЗИНФЕКЦИИ И ОЧИСТНЫЕ СРЕДСТВА</a>
+                                                </li>
+                                                <li><a   href="">ПОРТАТИВНЫЕ ХОЛОДИЛЬНИКИ</a>
+                                                </li>
+                                                <li><a   href="">СРЕДСТВА ДЛЯ ДЕЗИНФЕКЦИИ И ОЧИСТНЫЕ СРЕДСТВА</a>
+                                                </li>
+                                                <li><a   href="">ТУРИСТИЧЕСКАЯ ПОСУДА</a  href="">
+                                                </li>
+                                                <li><a   href="">КЕМПИНГОВАЯ МЕБЕЛЬ</a>
+                                                </li>
+                                                <li><a   href="">СУМКИ-ХОЛОДИЛЬНИКИ</a  href="">
+                                                </li>
+                                                <li><a   href="">АКСЕССУАРЫ И РАСХОДНЫЕ ДЛЯ ГАЗОВОЙ ПРОДУКЦИИ</a>
+                                                </li>
+                                                <li><a   href="">ВОДНЫЕ АТТРАКЦИОНЫ</a>
+                                                </li>
+                                                <li><a   href="">ПЛЯЖНЫЕ НАДУВНЫЕ ИГРУШКИ И БАССЕЙНЫ</a>
+                                                </li>
+                                                <li><a   href="">БАССЕЙНЫ</a>
+                                                </li>
+                                                <li><a   href="">ВОДНЫЕ АТТРАКЦИОНЫ</a>
+                                                </li>
+                                                <li><a   href="">ПЛЯЖНЫЕ ПАЛАТКИ И ТЕНТЫ</a>
+                                                </li>
+                                                <li><a   href="">МАНГАЛЫ, БАРБЕКЮ, НАБОРЫ ДЛЯ ПИКНИКА</a>
+                                                </li>
+                                                <li><a   href="">ТЕРМОСЫ И ТЕРМОКРУЖКИ</a  href="">
+                                                </li>
+                                                <li><a   href="">РАСХОДНЫЕ К БИОТУАЛЕТАМ</a>
+                                                </li>
+                                                <li><a   href="">ПЛЯЖНЫЕ ЗОНТЫ</a>
+                                                </li>
+                                                <li><a   href="">ГОРЕЛКИ, ЛАМПЫ И БАЛЛОНЫ</a>
+                                                </li>
+                                                <li><a   href="">ЗАРЯДНЫЕ УСТРОЙСТВА НА СОЛНЕЧНЫХ БАТАРЕЯХ</a>
+                                                </li>
+                                                <li><a   href="">АКСЕССУАРЫ ДЛЯ НАДУВНЫХ БАССЕЙНОВ</a  href="">
+                                                </li>
+                                                <li><a   href="">БИОТУАЛЕТЫ</a></li>
+                                                <li><a  href="">НАДУВНЫЕ МАТРАСЫ И КРЕСЛА</a>
+                                                </li>
+                                                <li><a   href="">АККУМУЛЯТОРЫ ХОЛОДА</a>
+                                                </li>                                          
+
+                                            </ul>
+                                            <ul id="Cls69">
+                                                <li><a  class="intCatalog"  href="#">СПРОТИВНОЕ ОРУЖИЕ</a></li>
+                                                <li><a   href="">АРБАЛЕТЫ И ЛУГА</a>
+                                                </li>
+                                                <li><a   href="">ПНЕВМАТИЧЕСКИЕ ВИНТОВКИ</a>
+                                                </li>
+                                                <li><a   href="">РАСХОДНЫЕ МАТЕРИАЛЫ К ОРУЖИЮ</a>
+                                                </li>
+                                                <li><a   href="">ОРУЖИЕ ПОД ПАТРОН ФЛЮБЕРА</a>
+                                                </li>
+                                                <li><a   href="">НАУШНИКИ</a>
+                                                </li>
+                                                <li><a   href="">ПНЕВМАТИЧЕСКИЕ ПИСТОЛЕТЫ</a>
+                                                </li>
+                                                <li><a   href="">ОЧКИ ЗАЩИТНЫЕ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls70">
+                                                <li><a  class="intCatalog"  href="#">ВЕЛОСИПЕДЫ, РОЛИКИ, СКЕЙТЫ</a></li>
+                                                <li><a   href="">ВЕЛОРЮКЗАКИ</a></li>
+                                                <li><a   href="">ВЕЛОИНСТРУМЕНТЫ</a></li>
+                                                <li><a   href="">ВЕЛОЗАПЧАСТИ</a></li>
+                                                <li><a   href="">РОЛИКОВЫЕ КРОССОВКИ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОСИПЕДНЫЕ ШЛЕМЫ</a>
+                                                </li>
+                                                <li><a   href="">НАВЕСНОЕ ОБОРУДОВАНИЕ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОСИПЕДНЫЕ НАСОСЫ</a>
+                                                </li>
+                                                <li><a   href="">КОНЬКИ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОССУМКИ, БАГАЖНИКИ</a>
+                                                </li>
+                                                <li><a   href="">ДЕТСКИЕ ВЕЛОКРЕСЛА</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОФАРЫ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОКОСМЕТИКА</a>
+                                                </li>
+                                                <li><a   href="">ЭЛЕКТРОВЕЛОСИПЕДЫ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОКОМПЬЮТЕРЫ</a></li>
+                                                <li><a   href="">ПОКРЫШКИ</a></li>
+                                                <li><a   href="">АКСЕССУАРЫ ДЛЯ ВЕЛОСИПЕДОВ</a>
+                                                </li>
+                                                <li><a   href="">АВТОМОБИЛЬНЫЕ КРЕПЛЕНИЯ ДЛЯ ВЕЛОСИПЕДОВ</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОСИПЕДНЫЕ ПЕРЧАТКИ</a>
+                                                </li>
+                                                <li><a   href="">ОДЕЖДУ</a></li>
+                                                <li><a   href="">КАМЕРЫ</a></li>
+                                                <li><a   href="">РОЛИКОВЫЕ КОНЬКИ</a>
+                                                </li>
+                                                <li><a   href="">ОЧКИ ДЛЯ ВЕЛОСПОРТА</a>
+                                                </li>
+                                                <li><a   href="">ВЕЛОСИПЕДЫ</a>
+                                                </li>
+                                                <li><a   href="">ЗАЩИТА ДЛЯ РОЛИКОВ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls71">
+                                                <li><a  class="intCatalog"  href="#">НОЖИ И МУЛЬТИМЕДИА</a></li>
+                                                <li><a   href="">ТОЧЕЧКИ</a>
+                                                </li>
+                                                <li><a   href="">НОЖИ</a></li>
+                                            </ul>
+                                            <ul id="Cls72">
+                                                <li><a  class="intCatalog"  href="#">РЫБАЛКА</a></li>
+                                                <li><a   href="">СПИННИНГИ, УДОЧКИ</a>
+                                                </li>
+                                                <li><a   href="">КАТУШКИ</a>
+                                                </li>
+                                                <li><a   href="">ЛЕСКА, ШНУРЫ</a>
+                                                </li>
+                                                <li><a   href="">ПРЕЛЕСТИ</a></li>
+                                                <li><a   href="">ПОПЛАВКИ</a>
+                                                </li>
+                                                <li><a   href="">АКСЕССУАРЫ ДЛЯ РЫБАЛКИ</a>
+                                                </li>
+                                            </ul>
+                                            <ul id="Cls73">
+                                                <li><a  class="intCatalog"  href="#">ФИТНЕС</a></li>
+                                                <li><a   href="">ГАНТЕЛИ, ГРИФЫ, ДИСКИ</a>
+                                                </li>
+                                                <li><a   href="">АТЛЕТИЧЕСКИЕ АКСЕССУАРЫ</a>
+                                                </li>
+                                                <li><a   href="">ТРЕНАЖЕРЫ</a></li>
+                                            </ul>
+                                            <ul id="Cls74">
+                                                <li><a  class="intCatalog"  href="#">ТОВАРЫ ДЛЯ ФИТНЕСА</a></li>
+                                                <li><a    href="">СПОРТИВНОЕ ПИТАНИЕ</a >
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </button>
+                                    <hr class="container__hr" >
+                                    <button id="c12"class="container__ctalogItem">ПОСУДА <img class="container__catalogImg" src="" alt=""> 
+                                        <div id="block" class="container__blockMenu">
+                                            <ul id="Cls75">
+                                                <li class="intCatalog"><a  class="intCatalog"  href="#">КУХОННЫЕ ПРИНАДЛЕЖНОСТИ</a></li>
+                                                <li><a   href="">ХЛІБНИЦІ</a>
+                                                </li>
+                                                <li><a   href="">ЩИПЦІ</a>
+                                                </li>
+                                                <li><a   href="">ЛОЖКИ</a  href="">
+                                                </li>
+                                                <li><a   href="">ВІНОЧКИ</a  href="">
+                                                </li>
+                                                <li><a   href="">ГЛЕЧИКИ</a>
+                                                </li>
+                                                <li><a   href="">ЛОПАТКИ</a>
+                                                </li>
+                                                <li><a   href="">ШТОПОРИ</a>
+                                                </li>
+                                                <li><a   href="">БАНКИ ДЛЯ СЕРВІРУВАННЯ</a>
+                                                </li>
+                                                <li><a   href="">ПЛЯШКИ</a>
+                                                </li>
+                                                <li><a   href="">ШУМІВКИ</a>
+                                                </li>
+                                                <li><a   href="">ТЕРМОСИ</a>
+                                                </li>
+                                                <li><a   href="">ПОЛОВНИКИ</a>
+                                                </li>
+                                                <li><a   href="">ТОВКАЧКИ</a>
+                                                </li>
+                                                <li><a   href="">МАСЛЯНКИ</a>
+                                                </li>
+                                                <li><a   href="">ФРЕШНИЦЫ</a>
+                                                </li>
+                                                <li><a   href="">ТЕРКИ</a>
+                                                </li>
+                                                <li><a   href="">МИРНАЯ КРУЖКА</a>
+                                                </li>
+                                                <li><a   href="">КИСТОЧКИ</a></li>
+                                                <li><a   href="">ДУРШЛАГИ</a>
+                                                </li>
+                                                <li><a   href="">ШТОПОРЫ</a></li>                                    
+                                            </ul>
+                                            <ul id="Cls76">
+                                                <li><a  class="intCatalog"  href="#">СТОЛОВАЯ ПОСУДА</a></li>
+                                                <li><a   href="">ЧАШКИ</a>
+                                                </li>
+                                                <li><a   href="">РЮМКИ</a>
+                                                </li>
+                                                <li><a   href="">КРЕМАНКИ</a>
+                                                </li>
+                                                <li><a   href="">КОНФЕТНИЦЫ</a></li>
+                                                <li><a   href="">САЛАТНИКИ</a>
+                                                </li>
+                                                <li><a   href="">БЛЮДА</a>
+                                                </li>
+                                                <li><a   href="">ГРАФИНЫ</a>
+                                                </li>
+                                                <li><a   href="">БУЛЬОННИЦЫ</a>
+                                                </li>
+                                                <li><p   href="">СТАКАНЫ</p></li>
+                                                <li><a   href="">НАБОРЫ ДЛЯ НАПИТКОВ</a>
+                                                </li>
+                                                <li><a   href="">САХАРНИЦЫ</a>
+                                                </li>
+                                                <li><a   href="">БОКАЛЫ</a>
+                                                </li>
+                                                <li><a   href="">СЛИВОЧНИКИ</a>
+                                                </li>
+                                                <li><a   href="">СУПНИЦЫ</a>
+                                                </li>
+                                                <li><a   href="">СТОЛОВЫЕ ПРИБОРЫ</a>
+                                                </li>
+                                                <li><a   href="">ТАРЕЛКИ</a></li>
+                                                <li><a   href="">ДЕТСКАЯ СЕРИЯ</a>
+                                                </li>
+                                                <li><a   href="">СТОЛОВЫЕ СЕРВИЗЫ</a>
+                                                </li>
+                                                <li><a   href="">БЛЮДЕЦ</a>
+                                                </li>                                 
+                                            </ul>
+                                            <ul id="Cls77">
+                                                <li><a  class="intCatalog"  href="#">КУХОННАЯ ПОСУДА</a></li>
+                                                <li><a   href="">ФОНДЮШНИЦЫ</a>
+                                                </li>
+                                                <li><a   href="">ДЛЯ СПЕЦИЙ И ПРИПРАВ</a>
+                                                </li>
+                                                <li><a   href="">КРЫШКИ</a></li>
+                                                <li><a   href="">ЧАЙНИКИ</a>
+                                                </li>
+                                                <li><a   href="">КАСТРЮЛИ</a>
+                                                </li>
+                                                <li><a   href="">ЕМКОСТИ ДЛЯ ХРАНЕНИЯ</a>
+                                                </li>
+                                                <li><a   href="">МИСКИ</a>
+                                                </li>
+                                                <li><a   href="">НАБОРЫ ПОСУДЫ</a>
+                                                </li>
+                                                <li><a   href="">КОВШИ</a>
+                                                </li>
+                                                <li><a   href="">ЗАВАРНИКИ</a>
+                                                </li>
+                                                <li><a   href="">СКОВОРОДЫ</a>
+                                                </li>
+                                                <li><a   href="">ЖАРОПРОЧНАЯ ПОСУДА</a>
+                                                </li>
+                                                <li><a   href="">УТЯТНИЦЫ</a>
+                                                </li>
+                                                <li><a   href="">ПАРОВАРКИ И СКОРОВАРКИ</a>
+                                                </li>
+                                                <li><a   href="">СОТЕЙНИКИ</a></li>                                 
+                                            </ul>
+                                            <ul id="Cls78">
+                                                <li><a  class="intCatalog"  href="#">КУХОННЫЕ НОЖИ И ПРИНАДЛЕЖНОСТИ</a></li>
+                                                <li><a   href="">НОЖИ</a ></li>
+                                                <li><a   href="">ДОСКИ</a>
+                                                </li>
+                                                <li><a   href="">ПОДСТАВКИ ПОД НОЖИ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__sliderBanner">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="accets/image/Rectangle 9 (1).png" alt="Первый слайд">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="accets/image/Rectangle 9 (1).png" alt="Второй слайд">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="accets/image/Rectangle 9 (1).png" alt="Третий слайд">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <button class="container__sliderButton" ><a href="#">Детальнее</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topPhone">
+        <span class="sdsdf" style="    height: 0;top: 868px;">Новинки</span>
+        <span class="fdgdfgd">Новинки</span>
+        <span class="df9ugdf9u">Самые свежые и <b style="color: red;"> сочные новинки,</b><br>которые не оставять ни одного <br> сомнения в их покупке !</span>
+        <button class="reuteruh">В каталог</button>
+        <div class="topTitle"></div>
+        <div class="jrtijterrr">
+            <div class="phone1">
+                <button class="djfjidsfosdj" >Бесплатная доставка</button>
+                <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img class="wuherwer" src="/accets/image/Phones/2.png" alt="">
+            </div>
+            <div class="phone2">
+                <button id="sadpdads" class="djfjidsfosdj" >Популярное</button>
+                <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                <button id="fdsogkfdgok" class="jsdfjsdiof"><img src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img style="right: 0; position: absolute; top: 0;" class="wuherwer" src="/accets/image/Phones/2.png" alt="">
+                <!-- <img class="ertret" src="/accets/image/Phones/Group 31.png" alt=""> -->
+            </div>
+            <div class="phone3">
+                <button id="sadpdads" class="djfjidsfosdj" >Популярное</button>
+
+                <img class="sdfdspf" src="/accets/image/Phones/Mask Group.png" alt="">
+            </div>
+            <div class="phone4">
+                <button id="sadpdads" class="djfjidsfosdj" >Популярное</button>
+
+                <img src="accets/image/Phones/Mask Group.png" alt="" class="dsfsfsdf">
+            </div>
+
+        </div>
+    </div>
+    <div class="battslerphone">
+       <div class="sdfsdfsdfsdfsdf">
+           <span class="asodkjapdasjd">Бестселлеры</span>
+           <span class="soiadsaojd">Бестселлеры</span>
+           <span class="dfsgsgsgsgsgs" >Наши любимчики, за качество мы <br> даем <b class="sdajipfajsi" >10 из 10</b>, рекомендуем !</span>
+           <button id="fdsfsdf" class="reuteruh">В каталог</button>
+           <div class="allPhones">
+            <div id="dfgdfgdfg" class="phone1">
+               <button id="free" class="djfjidsfosdj" >Бесплатная доставка</button>
+               <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+               <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/1.png" alt=""></div>
+            <div id="sdfsdfsddf" class="phone1">
+               <button id="recomend" class="djfjidsfosdj" >Рекомендуем</button>
+               <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+               <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/2.png" alt=""></div>
+            <div id="asasassasad" class="phone1">
+               <button id="mensell" class="djfjidsfosdj" >Скидка</button>
+               <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+               <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/3.png" alt=""></div>
+            <div id="hhgghghgh" class="phone1">
+               <button id="mensell" class="djfjidsfosdj" >Скидка</button>
+               <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+               <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>s
+                <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/4.png" alt=""></div>
+            <div class="bottomTel">
+                <div id="dfgdfgdfg" class="phone1">
+                   <button id="free" class="djfjidsfosdj" >Бесплатная доставка</button>
+                   <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                   <button class="jsdfjsdiof"><img class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                    <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/5.png" alt=""></div>
+                <div id="sdfsdfsddf" class="phone1">
+                   <button id="recomend" class="djfjidsfosdj" >Рекомендуем</button>
+                   <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                   <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                    <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/6.png" alt=""></div>
+                <div id="asasassasad" class="phone1">
+                   <button id="news" class="djfjidsfosdj" >Новинка</button>
+                   <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                   <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                    <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/7.png" alt=""></div>
+                <div id="hhgghghgh" class="phone1">
+                    <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/8.png" alt=""></div>
+            </div>
+        </div>
+       </div> 
+    </div>
+    <div class="newEy">
+        <span class="lgldfbfdmgdfmg">Раcпродажа</span>
+        <span  class="gddfvbfdgdfgdfg" >Хватай пока горячее, а еще и  по <b class="sadsasad" >маленькой цене !!!</b></span>
+        <span style="width: 318px;" class="gpgfgofofgogf">Раcпродажа</span>
+        <div id="dkspodopskfodsfko" class="jrtijterrr">
+            <div id="soajkdsajkdspkoa" class="phone1">
+                <button id="sdfsfdsf" class="djfjidsfosdj" >Бесплатная доставка</button>
+                <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                <button class="jsdfjsdiof"><img src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img class="wuherwer" src="/accets/image/Phones/Group 31.png" alt="">
+            </div>
+            <div id="sddofkso" class="phone2">
+                <button  class="djfjidsfosdj" >Популярное</button>
+                <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                <button id="fdsogkfdgok" class="jsdfjsdiof"><img src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                <img  class="wuherwer" src="/accets/image/Phones/2.png" alt="">
+                <!-- <img class="ertret" src="/accets/image/Phones/2.png" alt=""> -->
+            </div>
+            <div id="plasdposa" class="phone3">
+                <button id="sadpdads" class="djfjidsfosdj" >Популярное</button>
+
+                <img style="top:0;left:0;" class="sdfdspf" src="/accets/image/Phones/Mask Group.png" alt="">
+            </div>
+            <div id="sdopfposko" class="phone4">
+                <button id="sadpdads" class="djfjidsfosdj" >Популярное</button>
+
+                <img src="accets/image/Phones/Mask Group.png" alt="" class="dsfsfsdf">
+            </div>
+
+        </div>
+    </div>
+    <div class="bannerPhone">
+        <img class="imgBannerPhone" src="accets/image/phoneBanner.png" alt="">
+        <div class="buttonClick">
+            <button class="clickButtonBanner">Детальнее</button>
+        </div>
+    </div>  
+    <div id="vbgffgbfgbfgb" class="battslerphone">
+        <div class="sdfsdfsdfsdfsdf">
+            <span class="asodkjapdasjd">Топ дня</span>
+            <span class="soiadsaojd">Топ дня</span>
+            <span class="dfsgsgsgsgsgs" >Что больше всего<br> покупают сегодня!</span>
+            <button id="fdsfsdf" class="reuteruh">В каталог</button>
+             <div class="allPhones">
+                 <div id="dfgdfgdfg" class="phone1">
+                    <button id="free" class="djfjidsfosdj" >Бесплатная доставка</button>
+                    <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                    <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                     <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/1.png" alt=""></div>
+                 <div id="sdfsdfsddf" class="phone1">
+                    <button id="recomend" class="djfjidsfosdj" >Рекомендуем</button>
+                    <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                    <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                     <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/2.png" alt=""></div>
+                 <div id="asasassasad" class="phone1">
+                    <button id="mensell" class="djfjidsfosdj" >Скидка</button>
+                    <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                    <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                     <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/3.png" alt=""></div>
+                 <div id="hhgghghgh" class="phone1">
+                    <button id="mensell" class="djfjidsfosdj" >Скидка</button>
+                    <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                    <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>s
+                     <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/4.png" alt=""></div>
+                 <div class="bottomTel">
+                     <div id="dfgdfgdfg" class="phone1">
+                        <button id="free" class="djfjidsfosdj" >Бесплатная доставка</button>
+                        <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                        <button class="jsdfjsdiof"><img class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                         <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/5.png" alt=""></div>
+                     <div id="sdfsdfsddf" class="phone1">
+                        <button id="recomend" class="djfjidsfosdj" >Рекомендуем</button>
+                        <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                        <button class="jsdfjsdiof"><img  class="cartShop" src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                         <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/6.png" alt=""></div>
+                     <div id="asasassasad" class="phone1">
+                        <button id="news" class="djfjidsfosdj" >Новинка</button>
+                        <button class="dkosfjsdfjisd">Купить <br> один клик</button>
+                        <button class="jsdfjsdiof"><img class="cartShop"  src="accets/image/Phones/shopping-cart (7) 1.png" alt=""></button>
+                         <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/7.png" alt=""></div>
+                     <div id="hhgghghgh" class="phone1">
+                         <img class="dsfsdfsdfsdffds" src="accets/image/Phones/dabolu/8.png" alt=""></div>
+                 </div>
+             </div>
+        </div> 
+     </div>
+    <div class="footer__telegramBanner">
+        <button  class="footer__telegramButton">Подписаться</button>
+        <img class="footer__telegranBnrImg" src="accets/image/fother/telegramBanner.png" alt="">
+    </div>
+    <footer class="footer">
+        <div class="footer__body">
+            <div class="footer__row1">
+                <h1 class="footer__title" >COMTRADING</h1>
+                <span class="footer__allInfo" >© 2021 Все права защищенны</span>
+                <img src="accets/image/fother/Group 67.png" alt="">
+            </div>
+            <div class="footer__row2">
+                <h1 class="container__titile">Соцсети</h1>
+                <div class="footer__socialNetworkBox"><img class="footer__imgInbux" src="accets/image/fother/facebook-app-symbol 1.png" alt=""></div>
+                <div class="footer__socialNetworkBox"><img class="footer__imgInbux" src="accets/image/fother/instagram (21) 1.png" alt=""></div>
+                <div class="footer__socialNetworkBox"><img class="footer__imgInbux" src="accets/image/fother/telegram (7) 1.png" alt=""></div>
+            </div>
+            <div class="footer__row3">
+                <h1 class="container__titile">Время работы</h1>
+                <ul  class="footer__ulText"> 
+                    <li class="footer__ulTextItems">Пн. - Пт. з 09:00 до 19:00</li>
+                    <li class="footer__ulTextItems">Сб. з 10:00 до 14:00</li>
+                    <li class="footer__ulTextItems">Вс. - выходной</li>
+                </ul>
+            </div>
+            <div class="footer__row4">
+                <h1 class="container__titile">Каталог</h1>
+                <ul class="footer__ulText">
+                    <li class="footer__ulTextItems">Смартфоны и телефоны</li>
+                    <li class="footer__ulTextItems">Телевизоры, аудио и фото</li>
+                    <li class="footer__ulTextItems">Бытовая техника</li>
+                    <li class="footer__ulTextItems">Смартфоны и телефоны</li>
+                    <li class="footer__ulTextItems">Телевизоры, аудио и фото</li>
+                    <li class="footer__ulTextItems">Бытовая техника</li>
+                    <li class="footer__ulTextItems">Смартфоны и телефоны</li>
+                    <li class="footer__ulTextItems">Телевизоры, аудио и фото</li>
+                    <li class="footer__ulTextItems">Бытовая техника</li>
+                </ul>
+            </div>
+            <div class="footer__row5">
+                <h1 class="container__titile">Навигация </h1>
+                <ul class="footer__ulText">
+                    <li class="footer__ulTextItems">Корпоративным клиентам</li>
+                    <li class="footer__ulTextItems">Про нас</li>
+                    <li class="footer__ulTextItems">Способы доставки</li>
+                    <li class="footer__ulTextItems">Гарантия</li>
+                    <li class="footer__ulTextItems">Возврат и обмен</li>
+                    <li class="footer__ulTextItems">Распродажа</li>
+                    <li class="footer__ulTextItems">Контакты</li>
+                </ul>
+            </div>
+            <div class="footer__row6">
+                <h1 class="container__titile">Контакты</h1>
+                <ul class="footer__ulText">
+                    <li class="footer__ulTextItems">(098) 501 73 73</li>
+                    <li class="footer__ulTextItems">(073) 501 73 73</li>
+                    <li class="footer__ulTextItems">(050) 501 73 73</li>
+                    <li class="footer__ulTextItems">(044) 501 73 73</li>
+                    <li class="footer__ulTextItems">info@comtrading.ua</li>
+                </ul>
+            </div>
+            <div class="footer__row7">
+                <select class="footer__ccls"  name="" id="">
+                    <option value="">Каталог</option>
+                    <option value="">Смартфоны и телефоны</option>
+                    <option value="">Телевизоры, аудио и фото</option>
+                    <option value="">Бытовая техника</option>
+                    <option value="">Смартфоны и телефоны</option>
+                    <option value="">Телевизоры, аудио и фото</option>
+                    <option value="">Бытовая техника</option>
+                    <option value="">Смартфоны и телефоны</option>
+                    <option value="">Телевизоры, аудио и фото</option>
+                    <option value="">Бытовая техника</option>
+                </select>
+            </div>
+            <div class="footer__row8">
+                <select class="footer__ccls" name="" id="">
+                    <option value="">Время работы</option>
+                    <option value="">Пн. - Пт. з 09:00 до 19:00</option>                
+                    <option value="">Сб. з 10:00 до 14:00</option>
+                    <option value="">Вс. - выходной</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+    <script src="accets/javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="accets/javascript/scroll.js"></script>
+</body>
+</html>

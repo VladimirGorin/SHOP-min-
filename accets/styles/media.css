@@ -1,0 +1,112 @@
+body {
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+.header__telResponsiv {
+  width: 1349px;
+  height: 54px;
+  left: 0px;
+  top: 39px;
+  position: absolute;
+  display: none;
+  background: #ECEDEF;
+}
+
+.header__telResponsiv .header__responfivtitile {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #E51C23;
+  position: absolute;
+}
+
+.header__telResponsiv .header__pesonsivMenu {
+  top: -10px;
+  position: absolute;
+  left: 162px;
+}
+
+
+
+.header__clickMenu {
+  position: absolute;
+  width: 23px;
+  left: -248px;
+}
+
+.header__clickMenu hr {
+  margin: 3px;
+  background-color: red;
+  color: gray;
+}
+
+.carousel slide {
+  width: 376px;
+}
+
+.footer__row7 {
+  display: none;
+  bottom: -681px;
+  position: absolute;
+  background-color: #151621;
+}
+
+.footer__row8 {
+  display: none;
+  position: absolute;
+  bottom: -740px;
+  background-color: #151621;
+  border: none;
+}
+
+.footer__row7 {
+  color: white;
+  background-color: #151621;
+  border: none;
+  display: none;
+}
+
+.container .container__body .container__serviceCatalog .container__catalog {
+  position: absolute;
+  width: 327px;
+  height: 364px;
+  left: 8px;
+  top: 268px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+
+#itemonclick {
+  position: absolute;
+  z-index: 999999;
+}
+
+.container__phone {
+  width: 327px;
+  height: 486px;
+  left: 737px;
+  top: 918px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.container__phonebody {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.container{
+  height: 584px;
+}
+.header__vectors {
+  position: absolute;
+  left: 1210px;
+  top: 155px;
+}
+.header .header__row2 .header__categorig .header__inputCtg {
+  border: none;
+  position: absolute;
+  top: -1px;
+  left: 202px;
+  width: 442px;
+  height: 100%;
+  font-size: 14px;
+  background: #ecedef;
+}
+.header__serch{
+  position: absolute;
+  width: 58px;
+  height: 50px;
+  left: 92.12%;
+  right: 26.92%;
+  top: -3.77%;
+  z-index: 99900;
+  bottom: 4.54%;
+  background: #E51C23;
+  border-radius: 0px 5px 5px 0px;
+  .header__serchImg{
+    margin: 18px;
+  }
+}
+
+.footer{
+  width: 1499px;
+  height: 393px;
+  background: #151621;
+  bottom: -529px;
+  padding: 54px 0 0 29px;
+  .footer__body{
+    .footer__row1{
+      position: absolute;
+      width: 203px;
+      .footer__title{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 37px;
+
+        color: #E51C23;
+
+
+      }
+      .footer__allInfo{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+
+
+          color: #B8B9BE;
+
+
+      }
+    }
+  }
+}
+
+.container__titile{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 85.9%;
+  /* or 17px */
+  
+  
+  color: #FFFFFF;
+  
+}
+
+.footer__row2{position: absolute;left: 326px;}
+.footer__row3{position: absolute;left: 475px;}
+.footer__row4{position: absolute;left: 674px;}
+.footer__row5{position: absolute;left: 886px;}
+.footer__row6{position: absolute;left: 1090px;}
+
+
+.footer__socialNetworkBox{
+  display: inline-flex;
+  width: 28px;
+  height: 29px;
+  background: #E51C23;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.footer__ulTextItems{
+  padding: 0;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 85.9%;
+  /* or 12px */
+  margin: 22px 0 5px 0;
+
+  color: #FFFFFF;
+}
+.footer__ulText{
+  padding: 0;
+}
+.footer__up{
+  border: none;
+  position: absolute;
+  left: 83.58%;
+  right: -0.32%;
+  top: 1508.72px;
+  /* padding: 0 217px 0 0; */
+  /* bottom: 46.85%; */
+  width: 135px;
+  padding: 0 35px 0 0;
+  height: 45px;
+  background: #E51C23;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.footer__telegramBanner{
+  width: 1496px;
+  height: 403px;
+}
+
+.footer__telegranBnrImg{
+    margin: 0;
+    width: 1496px;
+    height: 403px;
+    padding: 0;
+}
+
+.footer__telegramButton{
+
+  position: absolute;
+  width: 208px;
+  height: 50px;
+  left: 197px;
+  color: white;
+  top: 1117px;
+  background-color: #55a1dc;
+  border: 1px solid #ECEDEF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}

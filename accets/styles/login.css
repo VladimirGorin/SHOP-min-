@@ -1,0 +1,186 @@
+.loginPopup{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 852px;
+    height: 611px;
+
+    position: absolute;
+    left: 281px;
+}
+.loginrow1{
+    width: 62%;
+    height: 100%;
+    display: inline-block;
+
+}
+.loginrow2{
+    background: #825DC7;
+    position: absolute;
+    width: 323px;
+    height: 100%;
+    display: inline-block;
+}
+.lettext{
+    top: 30px;
+    position: absolute;
+    left: 156px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    color: #0C061A;
+}
+.hrlogin{
+    background-color: #F2F3F5;
+    top: 63px;
+    position: absolute;
+    left: 10px;
+    width: 530px;
+    border: 1px solid #F2F3F5;
+
+}
+.loginTel{
+    padding: 4px;
+    border-radius: 5px;
+    position: absolute;
+    top: 107px;
+    background: #F2F3F5;
+    border: none;
+    /* width: 150px; */
+    width: 261px;
+    left: 147px;
+    height: 39px;
+    color: rgb(70, 69, 69);
+}
+
+.loginButton{
+    border: none;
+    border-radius: 5px;
+    width: 396px;
+    color: white;
+    font-size: 15px;
+    height: 62px;
+    position: absolute;
+    top: 182px;
+    left: 209px;
+    width: 261px;
+    left: 147px;
+    height: 44px;
+    background: #F29D7F;
+}
+
+.loginTo{
+    left: 172px;
+    position: absolute;
+    top: 266px;
+    color: #d9d6d6;
+}
+.googleInput{
+    top: 322px;
+    position: absolute;
+    width: 261px;
+    left: 149px;
+    height: 44px;
+    border: none;
+    background: #F2F3F5;
+}
+.googleInput img{
+    width: 22px;
+}
+
+.loginrow2 img{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+.logintext1{
+    position: absolute;
+    top: 89px;
+    left: 133px;
+}
+
+.logintext2{
+    left: 133px;
+    position: absolute;
+    top: 197px;
+}
+
+.logintext3{
+    left: 132px;
+    position: absolute;
+    top: 288px;
+
+}
+
+.logintext4{
+    left: 132px;
+    position: absolute;
+    top: 375px;
+}
+
+.loginspans{
+    font-size: 13px;
+    color: #C1AEE3;
+}
+.loginh1s{
+    font-size: 17px;
+    color: #CEC0E9;
+}
+.glaw{
+    /* height: 201px; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -26px;
+}
+
+
+.popupLogin{
+    display: none;
+    z-index: 99999999999999;
+    width: 30%;
+    height: 10%;
+    position: fixed;
+}
+
+.popupLoginBody{
+    background: white;
+    height: 194px;
+    /* width: 520px; */
+    top: 439px;
+    left: 1129px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.popupsell{
+    left: 30px;
+    text-align: center;
+    font-size: 28px;
+    /* text-align: center; */
+    position: absolute;
+    top: 68px;
+}
+
+.registrationButton{
+    border: none;
+    color: #94c914;
+    text-decoration: none;
+    width: 191px;
+    position: absolute;
+    top: 137px;
+    left: 30px;
+    background: #ffeb39;
+    border-radius: 5px;
+}
+
+.registrationButton a{
+    font-size: 12.6px;
+        color: #373834;
+    text-decoration: none;
+}
+
+
+#exitPopupLogin{
+    border: none;
+    transform: rotate(43deg);
+    background: none;
+}

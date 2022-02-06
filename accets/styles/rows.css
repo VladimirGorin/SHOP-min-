@@ -1,0 +1,666 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.footer__telegramButton {
+    position: absolute;
+    width: 208px;
+    height: 50px;
+    left: 197px;
+    color: white;
+    top: 6187px;
+    background-color: #55a1dc;
+    border: 1px solid #ECEDEF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.topPhone{
+    height:  1106px;;
+    width: 1349px;
+}
+.topTitle{
+    width: 645px;
+    height: 236px;
+}
+
+.sdsdf{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 160px;
+    line-height: 236px;
+    /* identical to box height */
+
+
+    color: #F8F8F8;
+    position: absolute;
+
+
+}
+.footer__up {
+    top: 6265px;
+    border: none;
+    position: absolute;
+    left: 80.58%;
+    right: -0.32%;
+    /* top: 1508.72px; */
+    /* padding: 0 217px 0 0; */
+    /* bottom: 46.85%; */
+    width: 135px;
+    padding: 0 35px 0 0;
+    height: 45px;
+    background: #E51C23;
+    -webkit-transform: rotate(
+90deg
+);
+    transform: rotate(
+90deg
+);
+}
+
+.fdgdfgd{
+    position: absolute;
+    width: 323px;
+    height: 118px;
+    left: 256px;
+    top: 836px;
+
+    font-family: Circe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 118px;
+    /* identical to box height */
+
+
+    color: #151621;
+
+
+}
+.df9ugdf9u{
+    position: absolute;
+    top: 961px;
+    left: 252px;
+    font-size: 17px;
+}
+
+.rfgertergf{
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 261px;
+    top: 1103px;
+
+    border: 1px solid #E51C23;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: red;
+    background: #0e0b0b00;
+
+}
+
+.topPhoneToken1{
+    top: 805px;
+    left: 683px;
+    position: absolute;
+    width: 666px;
+    height: 500px;
+}
+.topPhone1{
+    position: absolute;
+    width: 327px;
+    height: 914px;
+    left: 6px;
+    top: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+.reuteruh{
+    position: absolute;
+    width: 325px;
+    height: 50px;
+    left: 254px;
+    top: 1092px;
+
+    border: 1px solid #E51C23;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 82.9%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #E51C23;
+    background-color: rgba(255, 0, 0, 0);
+
+}
+.jrtijterrr{
+    left: 676px;
+    width: 661px;
+    top: 806px;
+    height: 438px;
+    position: absolute;
+}
+.phone1{
+    position: absolute;
+    width: 327px;
+    height: 486px;
+    left: 0;
+    top: 0;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+.wuherwer{
+    position: absolute;
+}
+.phone2{
+    position: absolute;
+    width: 327px;
+    height: 486px;
+    left: 362px;
+    top: 52px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.ertret{
+    right: -48px;
+    position: absolute;
+    top: -45px;    
+}
+
+.phone3{
+    position: absolute;
+    width: 327px;
+    height: 245px;
+    left: -2px;
+    top: 523px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+.sdfdspf{
+    position: absolute;
+}
+
+
+.phone4{
+    position: absolute;
+    width: 327px;
+    height: 243px;
+        left: 362px;
+    top: 581px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+
+
+.djfjidsfosdj{
+    position: absolute;
+    width: 195px;
+    height: 26px;
+    left: 57px;
+    top: 13px;
+    z-index: 999999999;
+    background: #259B24;
+    border-radius: 5px;
+    border: none;
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125.4%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.dkosfjsdfjisd{
+    z-index: 999999999;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 82.9%;
+    /* or 15px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 187px;
+    height: 50px;
+    top: 406px;
+    left: 27px;
+    border: none;
+    font-weight: 100;
+
+    background: #E51C23;
+    border-radius: 5px;
+
+}
+.jsdfjsdiof{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #ffebcd00;
+    top: 405px;
+    left: 246px;
+
+    border: 1px solid #E51C23;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 1000000;
+}
+#sadpdads{
+    background: #E91E63;
+    
+}
+
+#fdsogkfdgok{
+    top: 406px;
+}
+
+
+.battslerphone{
+    width: 1349px;
+    height: 1372px;
+}
+
+.sdfsdfsdfsdfsdf{
+    position: absolute;
+    width: 933px;
+    height: 236px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 160px;
+    line-height: 236px;
+    /* identical to box height */
+
+
+    color: #F8F8F8;
+
+
+}
+.soiadsaojd{
+    position: absolute;
+    width: 467px;
+    height: 118px;
+    top: 0px;
+    left: 115px;
+
+    font-family: Circe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 118px;
+    /* identical to box height */
+
+
+    color: #151621;
+}
+
+.sdajipfajsi{
+    color: red;
+}
+
+.dfsgsgsgsgsgs{
+    position: absolute;
+    width: 344px;
+    height: 58px;
+    top: 119px;
+    left: 131px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #151621;
+
+
+}
+
+.asodkjapdasjd{
+    position: absolute;
+    width: 645px;
+    height: 236px;
+    
+
+    font-family: Circe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 160px;
+    line-height: 236px;
+    /* identical to box height */
+    top: -34px;
+
+    color: #F8F8F8;
+
+}
+#fdsfsdf{
+    top: 114px;
+    left: 1021px;
+}
+#dfgdfgdfg{
+    
+    top: 218px;
+}
+
+
+.dsfsdfsdfsdffds{
+    top: -46px;
+    position: absolute;
+    left: -51px;
+}
+
+#sdfsdfsddf{
+    left: 344px;
+    top: 270px;
+}
+#asasassasad{
+    top: 312px;
+    left: 688px;
+}
+#hhgghghgh{
+    left: 1029px;
+    top: 362px;
+
+}
+
+.bottomTel{
+    
+    position: absolute;
+    top: 516px;
+
+}
+
+.newEy{
+    width: 1349px;
+    height: 821px;
+}
+
+.sadsasad{
+    color: red;
+}
+.gddfvbfdgdfgdfg{
+    
+    position: absolute;
+    width: 272px;
+    height: 58px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #151621;
+    left: 1007px;
+    top: 3383px;
+    
+    
+}
+.lgldfbfdmgdfmg{
+    position: absolute;
+    width: 626px;
+    height: 236px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 236px;
+    left: 730px;
+    color: #F8F8F8;
+    top: 3252px;
+    
+    
+
+}
+.gpgfgofofgogf{
+    position: absolute;
+    width: 429px;
+    height: 118px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 118px;
+    color: #151621;
+    left: 1001px;
+    
+
+}
+
+#dkspodopskfodsfko{
+    top: 3284px;
+    left: 173px;
+}
+
+#soajkdsajkdspkoa{
+    top: 24px;
+}
+#sddofkso{
+    top: 0;
+}
+#plasdposa{
+    top: 531px;
+}
+#sdopfposko{
+    top: 528px;
+
+}
+
+#sdfsfdsf{
+    background-color: #E91E63;
+}
+
+.bannerPhone{
+    width: 1349px;
+    height: 401px;
+}
+
+.imgBannerPhone{
+    width: 1349px;
+}
+.buttonClick{
+    position: absolute;
+    top: 4397px;
+    left: 315px;
+}
+.clickButtonBanner{
+    width: 194px;
+    height: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 103.9%;
+    /* identical to box height, or 19px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: 1px solid #ECEDEF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #fff0f500;
+}
+
+#vbgffgbfgbfgb{
+    top: 0;
+}
+#recomend{
+    background-color: #00BCD4;
+}
+
+#mensell{
+    background-color: #FFC107;
+}
+
+#news{
+   background-color: #55A1DC;
+}
+#free{
+    background-color: #259B24;
+}
+
+.cartShop{
+    position: absolute;
+    top: 14px;
+    left: 12px;
+}
+
+.container__blockMenu{
+    border-radius: 15px;
+    width: 218px;
+    height: 363px;
+    position: absolute;
+    z-index: 99999;
+    background: white;
+    left: 333px;
+    box-shadow: black 1px;
+    box-shadow: 20px 30px 77px rgb(0 0 0);
+    display: none;
+}
+.container__ctalogItem:hover{
+    color: red;
+}
+#c1:hover div{
+
+    top: 57px;
+    border-radius: 15px;
+    width: 217px;
+    height: 370px;
+    position: absolute;
+    z-index: 99999;
+    background: white;
+    left: 333px;
+    box-shadow: black 1px;
+    box-shadow: 20px 30px 77px rgb(0 0 0);
+    display: block;
+    transition: 8s;
+}
+#block ul{
+  font-size: 12px;
+  padding: 19px 0 0 15px;
+  list-style-type: none;
+}
+
+.container__hr{width: 325px;
+}
+
+#c1:hover{
+  border: 1px solid;
+
+}
+
+#c2:hover div{
+
+  top: 107px;
+  border-radius: 15px;
+  width: 217px;
+  height: 370px;
+  position: absolute;
+  z-index: 99999;
+  background: white;
+  left: 333px;
+  box-shadow: black 1px;
+  box-shadow: 20px 30px 77px rgb(0 0 0);
+  display: block;
+  transition: 8s;
+}
+
+#c2:hover{
+  border: 1px solid;
+  width: 500px;
+}
+
+#c3:hover div{
+
+  top: 157px;
+  border-radius: 15px;
+  width: 217px;
+  height: 370px;
+  position: absolute;
+  z-index: 99999;
+  background: white;
+  left: 333px;
+  box-shadow: black 1px;
+  box-shadow: 20px 30px 77px rgb(0 0 0);
+  display: block;
+  transition: 8s;
+}
+
+#c3:hover{
+  border: 1px solid;
+  width: 500px;
+}
+
+#c4:hover div{
+
+  top: 207px;
+  border-radius: 15px;
+  width: 217px;
+  height: 370px;
+  position: absolute;
+  z-index: 99999;
+  background: white;
+  left: 333px;
+  box-shadow: black 1px;
+  box-shadow: 20px 30px 77px rgb(0 0 0);
+  display: block;
+  transition: 8s;
+}
+
+#c4:hover{
+  border: 1px solid;
+  width: 500px;
+}
+#c5:hover div{
+
+  top: 257px;
+  border-radius: 15px;
+  width: 217px;
+  height: 370px;
+  position: absolute;
+  z-index: 99999;
+  background: white;
+  left: 333px;
+  box-shadow: black 1px;
+  box-shadow: 20px 30px 77px rgb(0 0 0);
+  display: block;
+  transition: 8s;
+}
+
+#c5:hover{
+  border: 1px solid;  width: 500px;
+}
+#c6:hover div{
+
+  top: 307px;
+  border-radius: 15px;
+  width: 217px;
+  height: 370px;
+  position: absolute;
+  z-index: 99999;
+  background: white;
+  left: 333px;
+  box-shadow: black 1px;
+  box-shadow: 20px 30px 77px rgb(0 0 0);
+  display: block;
+  transition: 8s;
+}
+
+#c6:hover{
+  border: 1px solid;
+  width: 500px;
+}
+/*# sourceMappingURL=container.css.map */
